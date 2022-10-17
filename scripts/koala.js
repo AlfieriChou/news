@@ -1,37 +1,36 @@
-const got = require('got')
 const fs = require('fs')
 
-const logger = console
+const Api = require('../lib/api')
 
 const url = 'https://api.bilibili.com/x/polymer/space/seasons_archives_list'
-const headers = {
-  authority: 'api.bilibili.com',
-  accept: 'application/json, text/plain, */*',
-  'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
-  origin: 'https://space.bilibili.com',
-  referer: 'https://space.bilibili.com/489667127/channel/collectiondetail?sid=249279',
-  'sec-ch-ua': '"Chromium";v="106", "Microsoft Edge";v="106", "Not;A=Brand";v="99"',
-  'sec-ch-ua-mobile': '?0',
-  'sec-ch-ua-platform': '"Windows"',
-  'sec-fetch-dest': 'empty',
-  'sec-fetch-mode': 'cors',
-  'sec-fetch-site': 'same-site',
-  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.37'
-}
 const replyUrl = 'http://api.bilibili.com/x/v2/reply/main'
 
+const logger = console
+const api = new Api({
+  headers: {
+    authority: 'api.bilibili.com',
+    accept: 'application/json, text/plain, */*',
+    'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+    origin: 'https://space.bilibili.com',
+    referer: 'https://space.bilibili.com/489667127/channel/collectiondetail?sid=249279',
+    'sec-ch-ua': '"Chromium";v="106", "Microsoft Edge";v="106", "Not;A=Brand";v="99"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.37'
+  },
+  logger
+})
+
 const getKoalaList = async (page, callback) => {
-  const channelRet = await got(url, {
-    searchParams: {
-      mid: 489667127,
-      season_id: 249279,
-      sort_reverse: false,
-      page_num: page,
-      page_size: 30
-    },
-    headers,
-    resolveBodyOnly: true,
-    responseType: 'json'
+  const channelRet = await api.get(url, {
+    mid: 489667127,
+    season_id: 249279,
+    sort_reverse: false,
+    page_num: page,
+    page_size: 30
   })
   logger.info('获取合集信息', page, JSON.stringify(channelRet))
   if (channelRet.code !== 0) {
@@ -47,14 +46,9 @@ const getKoalaList = async (page, callback) => {
       createdAt: archive.ctime * 1000,
       publishAt: archive.pubdate * 1000
     }
-    const replyRet = await got(replyUrl, {
-      searchParams: {
-        type: 1,
-        oid: archive.aid
-      },
-      headers,
-      resolveBodyOnly: true,
-      responseType: 'json'
+    const replyRet = await api.get(replyUrl, {
+      type: 1,
+      oid: archive.aid
     })
     if (replyRet.code !== 0) {
       throw new Error(JSON.stringify(replyRet))

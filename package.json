@@ -14,7 +14,8 @@
   "author": "AlfieriChou",
   "license": "ISC",
   "dependencies": {
-    "got": "11"
+    "got": "11",
+    "shortid": "^2.2.16"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
