@@ -69,11 +69,11 @@ const getKoalaList = async (page, callback) => {
     }
     if (replyRet.data.replies && replyRet.data.replies.length) {
       logger.warn('视频缺乏置顶评论', archive.aid, archive.title, JSON.stringify(replyRet.data.replies[0], null, 2))
-      const [{ content: { message } }] = replyRet.data.replies
-      if (message.includes('本期时间轴')) {
+      const [reply] = replyRet.data.replies
+      if (reply?.content?.message.includes('时间轴')) {
         return [...result, {
           ...instance,
-          content: message
+          content: reply.content.message
         }]
       }
     }
@@ -94,6 +94,7 @@ const start = async () => {
   await getKoalaList(1, async archives => {
     list = list.concat(archives)
   })
+  logger.info('Koala list', list.length)
   fs.writeFileSync('test.json', JSON.stringify(list, null, 2))
 }
 
