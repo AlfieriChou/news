@@ -74,7 +74,11 @@ const getKoalaList = async (page, callback) => {
         }]
       }
     }
-    return result
+    return [...result, {
+      id: archive.aid,
+      aid: archive.aid,
+      title: archive.title
+    }]
   }, Promise.resolve([]))
   await callback(list)
   const pageInfo = channelRet.data.page
