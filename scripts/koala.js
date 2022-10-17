@@ -40,6 +40,13 @@ const getKoalaList = async (page, callback) => {
   const { archives } = channelRet.data
   const list = await archives.reduce(async (promise, archive) => {
     const result = await promise
+    const instance = {
+      id: archive.aid,
+      aid: archive.aid,
+      title: archive.title,
+      createdAt: archive.ctime * 1000,
+      publishAt: archive.pubdate * 1000
+    }
     const replyRet = await got(replyUrl, {
       searchParams: {
         type: 1,
@@ -56,9 +63,7 @@ const getKoalaList = async (page, callback) => {
     if (top?.upper?.content?.message) {
       logger.info('视频置顶评论信息', archive.aid, top.upper.content.message)
       return [...result, {
-        id: archive.aid,
-        aid: archive.aid,
-        title: archive.title,
+        ...instance,
         content: top.upper.content.message
       }]
     }
@@ -67,18 +72,12 @@ const getKoalaList = async (page, callback) => {
       const [{ content: { message } }] = replyRet.data.replies
       if (message.includes('本期时间轴')) {
         return [...result, {
-          id: archive.aid,
-          aid: archive.aid,
-          title: archive.title,
+          ...instance,
           content: message
         }]
       }
     }
-    return [...result, {
-      id: archive.aid,
-      aid: archive.aid,
-      title: archive.title
-    }]
+    return [...result, instance]
   }, Promise.resolve([]))
   await callback(list)
   const pageInfo = channelRet.data.page
