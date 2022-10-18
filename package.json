@@ -14,6 +14,7 @@
   "author": "AlfieriChou",
   "license": "ISC",
   "dependencies": {
+    "@galenjs/factories": "^1.4.0",
     "got": "11",
     "shortid": "^2.2.16"
   },

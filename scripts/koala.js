@@ -1,4 +1,5 @@
 const fs = require('fs')
+const { sleep } = require('@galenjs/factories/sleep')
 
 const Api = require('../lib/api')
 
@@ -46,6 +47,7 @@ const getKoalaList = async (page, callback) => {
       createdAt: archive.ctime * 1000,
       publishAt: archive.pubdate * 1000
     }
+    await sleep(Math.floor(Math.random(3) * 1000 + 1000))
     const replyRet = await api.get(replyUrl, {
       type: 1,
       oid: archive.aid
@@ -89,7 +91,38 @@ const start = async () => {
     list = list.concat(archives)
   })
   logger.info('Koala list', list.length)
-  fs.writeFileSync('test.json', JSON.stringify(list, null, 2))
+  const mdList = []
+  mdList.push('# koala hacker news \n')
+  await list.forEach((item, index) => {
+    mdList.push(`## 第${list.length - index}期 \n`)
+    mdList.push(`### ${item.title} \n`)
+    mdList.push(`- [视频链接](https://www.bilibili.com/video/av${item.id}) \n`)
+    if (item.content) {
+      mdList.push('|时间轴|简介|链接|')
+      mdList.push('|:--:|:--:|:--:|')
+      const contentList = item.content.split('\n')
+      const linkIndex = contentList.findIndex(i => i.includes('项目链接'))
+      if (linkIndex > 0) {
+        const titleList = contentList.slice(1, linkIndex)
+        const linkList = contentList.slice(linkIndex + 1)
+        linkList.forEach((link, index) => {
+          if (titleList[index]) {
+            const [timeline, ...titleArr] = titleList[index].split(' ')
+            mdList.push(`|${timeline}|${titleArr.join('')}|${link}|`)
+          }
+        })
+        return
+      }
+      const titleList = contentList.slice(1)
+      titleList.forEach((title) => {
+        const [timeline, ...titleArr] = title.split(' ')
+        mdList.push(`|${timeline}|${titleArr.join('')}| |`)
+      })
+      mdList.push('\n')
+    }
+  })
+  fs.writeFileSync('./markdown/koala.md', mdList.join('\n'))
+  logger.info('write file done')
 }
 
 start()
