@@ -111,6 +111,7 @@ const start = async () => {
             mdList.push(`|${timeline}|${titleArr.join('')}|${link}|`)
           }
         })
+        mdList.push('\n')
         return
       }
       const titleList = contentList.slice(1)
