@@ -93,7 +93,7 @@ const start = async () => {
   logger.info('Koala list', list.length)
   const mdList = []
   mdList.push('# koala hacker news \n')
-  await list.forEach((item, index) => {
+  list.forEach((item, index) => {
     mdList.push(`## 第${list.length - index}期 \n`)
     mdList.push(`### ${item.title} \n`)
     mdList.push(`- [视频链接](https://www.bilibili.com/video/av${item.id}) \n`)
