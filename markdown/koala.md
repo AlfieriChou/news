@@ -1,5 +1,23 @@
 # koala hacker news 
 
+## 第44期 
+
+### [Hacker News 周报] 手机编程 App；WebAssembly 应用；高性能 TypeScript 编译器 
+
+- [视频链接](https://www.bilibili.com/video/av816812753) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|Tabby｜用web开发的现代化终端|https://github.com/Eugeny/tabby |
+|00:41|用GithubPage部署SQLite数据库|https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/ |
+|01:15|stlite｜Streamlit的serverless版本|https://edit.share.stlite.net/ |
+|01:54|TypeRunner｜高性能TypeScript编译器|https://github.com/marcj/TypeRunner |
+|02:30|Linen｜Slack替代品|https://github.com/Linen-dev/linen.dev |
+|02:56|ReplitMobileApp｜手机编程App|https://blog.replit.com/mobile-app |
+|03:27|Koala频道观众贡献的2个HackerNews周报检索项目|https://github.com/ZutJoe/Koala_hacker_news |
+|Bam｜Orchids|byDiamondsAndIce|思维导图查询：|
+
+
 ## 第43期 
 
 ### [Hacker News 周报] Obsidian 发布 1.0；命令行中编辑视频与收发邮件；Jet Brains 新一代 IDE 公测 
@@ -15,6 +33,8 @@
 |01:37|aerc｜在命令行中编辑视频与收发邮件|https://aerc-mail.org/ |
 |01:54|Fleet｜JetBrains新一代IDE|https://www.jetbrains.com/fleet/ |
 |02:18|Go语言设计讨论|https://github.com/golang/go/discussions/56010|
+
+
 ## 第42期 
 
 ### [Hacker News 周报] 通过二维码分享电脑中任意文件；开源 WASM 运行 PostgresSQL 方案；社区尝试维护 SQLite 下游版本 
@@ -30,6 +50,8 @@
 |01:50|v86｜通过WebAssembly运行x86兼容的虚拟机|https://github.com/copy/v86|
 |02:06|libSQL｜SQLite下游版本|https://github.com/libsql/libsql & https://itnext.io/sqlite-qemu-all-over-again-aedad19c9a1c |
 |02:38|TypeScript10yearsanniversary|https://devblogs.microsoft.com/typescript/ten-years-of-typescript/|
+
+
 ## 第41期 
 
 ### [Hacker News 周报] CloudFlare 开源 serverless 运行时 workerd；开源 APM 系统；使用 Go 和 Web 技术开发 
@@ -45,6 +67,8 @@
 |02:02|pdfgrep｜命令行搜索工具|https://pdfgrep.org/|
 |02:16|Liqe｜轻量级搜索引擎|https://github.com/gajus/liqe|
 |02:31|Google计划关停云游戏服务Stadia|https://www.theverge.com/2022/9/29/23378713/google-stadia-shutting-down-game-streaming-january-2023|
+
+
 ## 第40期 
 
 ### [Hacker News 周报] Git 终端 UI；开源短链接服务；AI 作画图库 
@@ -61,6 +85,8 @@
 |01:55|Whisper｜OpenAI开源的语音识别系统|https://openai.com/blog/whisper |
 |02:15|fly.io开源新项目LiteFS|https://fly.io/blog/introducing-litefs |
 |02:51|AzureCTOMarkRussinovich发推引发热议|https://twitter.com/markrussinovich/status/1571995117233504257|
+
+
 ## 第39期 
 
 ### [Hacker News 周报] 在线设计工具新动向；交互式 Markdown；Mac 中体验 AI 作画 
@@ -77,6 +103,8 @@
 |01:59|SafeQL｜校验SQL的ESLint插件|https://engineering.fb.com/2022/09/12/open-source/memlab/|
 |02:14|DiffusionBee｜在M1Mac上运行StableDiffusion的桌面端应用|https://safeql.dev/|
 |Bam｜Cool|CatsbyFamilyKush|https://github.com/divamgupta/diffusionbee-stable-diffusion-ui|
+
+
 ## 第38期 
 
 ### [Hacker News 周报] 结构化 diff 工具；百倍快的 Python linter；PREACT 状态管理新方案 signals 
@@ -92,6 +120,8 @@
 |02:03|VSCheatsheet｜VSCode快捷键合集|https://www.vscheatsheet.com/ |
 |02:24|ModernforHackerNews｜美化HackerNews界面的浏览器插件|https://www.modernhn.com/ |
 |02:37|signals｜PREACT状态管理新方案|https://preactjs.com/blog/introducing-signals/|
+
+
 ## 第37期 
 
 ### [Hacker News 周报] 快速启动隔离开发环境；JSON 可视化工具；Heroku 即将停止免费额度 
@@ -125,6 +155,8 @@
 |01:43|eInk-VNC｜将VMC输出到墨水屏|https://github.com/H-M-H/Weylus|
 |02:04|SQLite并发读取性能详解|https://zmarshall.nl/static/eink-vnc.html|
 |02:26|80岁计算机科学家仍在优化开源代码|https://fly.io/blog/sqlite-internals-wal|
+
+
 ## 第35期 
 
 ### [Hacker News 周报] 浏览器中运行 Postgres；与 Python 兼容的静态类型语言；分布式文件系统 JuiceFS 
@@ -139,6 +171,8 @@
 |01:22|JiraCLI｜对Jira的命令行客户端|https://github.com/ankitpokhrel/jira-cli|
 |01:33|CrunchyData｜在浏览器中运行Postgres|https://www.crunchydata.com/blog/learn-postgres-at-the-playground|
 |01:53|JSON5作者的一篇博客|https://aseemk.substack.com/p/ignore-the-f-ing-haters-json5|
+
+
 ## 第34期 
 
 ### [Hacker News 周报] 远程开发方案 Coder；高性能 virtual DOM；深入 Redis 技术细节 
@@ -153,6 +187,8 @@
 |01:28|Multy｜基于Terraform的跨云部署框架|https://github.com/multycloud/multy|
 |01:54|Rancher创始团队运营新开源产品Acorn|https://acorn.io/|
 |02:21|一篇介绍Redis技术细节的文章|https://architecturenotes.co/redis/|
+
+
 ## 第33期 
 
 ### [Hacker News 周报] 开源知识库软件能否替代 Notion；Copilot 开源替代品；逆向工程工具箱。 
@@ -167,6 +203,8 @@
 |01:08|Emery｜效率工具|https://emery.to/ |
 |01:24|一篇介绍eBPF技术的文章|https://www.groundcover.com/blog/what-is-ebpf |
 |01:50|用DALL·E2生成logo图片的分享文章|https://jacobmartins.com/posts/how-i-used-dalle2-to-generate-the-logo-for-octosql/|
+
+
 ## 第32期 
 
 ### [Hacker News 周报] 多功能 serverless JS 运行时；Grammarly 开源替代品；K8s 轻量级虚拟化插件 
@@ -181,6 +219,8 @@
 |01:44|Virtink｜K8s轻量级虚拟化插件|https://github.com/smartxworks/virtink   |
 |02:25|Skeleton｜全功能SvelteUI组件库|https://skeleton.brainandbonesllc.com/ |
 |02:50|K8s提出了Gateway网关API|https://www.armosec.io/blog/kubernetes-gateway-api|
+
+
 ## 第31期 
 
 ### [Hacker News 周报] Google 发布新编程语言 Carbon；低代码工具开发框架榫卯；AI 系统 DALL·E 开放 Beta 测试 
@@ -195,6 +235,8 @@
 |02:36|Tweakpane｜一个调节参数的JS库|https://cocopon.github.io/tweakpane/ |
 |02:58|AI系统DALL·E开放Beta测试|https://openai.com/blog/dall-e-now-available-in-beta |
 |03:21|一篇关于Scratch潜能的文章|https://www.bryanbraun.com/2022/07/16/scratch-is-a-big-deal|
+
+
 ## 第30期 
 
 ### [Hacker News 周报] Vite 3.0 发布；Bun 性能实测；性能更强的 Prometheus 替代方案 
@@ -209,6 +251,8 @@
 |01:49|Cleanupphotos｜修图工具|https://cleanupphotos.com/ |
 |02:14|Vim在线交互式学习平台|https://www.vimified.com/ |
 |02:36|推荐《PostgreSQL14Internals》一书|https://postgrespro.com/community/books/internals|
+
+
 ## 第29期 
 
 ### [Hacker News 周报] 高性能 JS 运行时 Bun；Electron 轻量级替代品；自动探测 Web 应用内存泄漏 
@@ -223,6 +267,8 @@
 |01:19|PocketBase｜开源实时后端方案|https://pocketbase.io/ |
 |01:44|fuite｜自动探测Web应用内存泄漏|https://github.com/nolanlawson/fuite |
 |02:05|一篇关于rsync工作原理的文章|https://michael.stapelberg.ch/posts/2022-07-02-rsync-how-does-it-work|
+
+
 ## 第28期 
 
 ### [Hacker News 周报] 性能持续分析工具；数据库必须知道的那些事；Spark 与 K8s 集成新动向 
@@ -237,6 +283,8 @@
 |01:21|《浏览器是如何工作的》|https://web.dev/howbrowserswork/ |
 |01:49|Spark与K8s集成新动向|https://www.cncf.io/blog/2022/06/30/why-spark-chooses-volcano-as-built-in-batch-scheduler-on-kubernetes/ |
 |02:15|Raindrop｜书签管理小工具|https://raindrop.io/|
+
+
 ## 第27期 
 
 ### [Hacker News 周报] GitHub AI 代码助手 Copilot 正式发布；增强版 watch 命令；Deno 完成 A 轮融资 
@@ -252,6 +300,8 @@
 |02:23|Unclutter｜整理网页的浏览器插件|https://avohq.io/ |
 |02:43|SQLite发布SQLite4设计|https://unclutter.lindylearn.io/ |
 |03:04|Deno完成A轮融资|https://sqlite.org/src4/doc/trunk/www/design.wiki |
+
+
 ## 第26期 
 
 ### [Hacker News 周报] Deno 原生 SSR web 框架；基于 Vite 的单元测试框架；程序员社交新尝试 
@@ -282,6 +332,8 @@
 |01:06|DEEPKIT｜Typescript高性能框架|https://deepkit.io/ |
 |01:24|opensourcealternative.to｜查找开源替代品的网站|https://www.opensourcealternative.to/ |
 |01:42|untools｜一组帮助思考的工具和方法论|https://untools.co/|
+
+
 ## 第24期 
 
 ### [Hacker News 周报] 25 倍快的 Redis 竞品；开源 serverless Postgres 方案；快速编写 UML 图 
@@ -298,6 +350,8 @@
 |02:49|fd｜终端工具Find的替代品|https://github.com/sharkdp/fd |
 |03:05|svelvet｜交互式关系图构建工具|https://svelvet.io/docs/basic-usage/ |
 |03:22|ffmpegbuddy｜FFmpeg命令生成工具|https://evanhahn.github.io/ffmpeg-buddy/|
+
+
 ## 第23期 
 
 ### [Hacker News 周报] 超轻量级 Python 引擎；快速阅读英文插件；TypeScript 发布新版本 
@@ -313,6 +367,8 @@
 |01:20|AnimatiSS｜一组CSS动画合集|https://xsgames.co/animatiss |
 |01:32|Arctype｜SQL数据库客户端|https://arctype.com/ |
 |01:47|一个有趣的3D植物生成工具|https://plant.jim-fx.com/|
+
+
 ## 第22期 
 
 ### [Hacker News 周报] GO 全栈开发框架；开发终端风格网站；大厂技术架构赏析 
@@ -328,6 +384,8 @@
 |01:39|LiveTerm｜开发终端风格网站|https://liveterm.vercel.app/ |
 |01:56|Datadog介绍第三代事件存储库Husky|https://www.datadoghq.com/blog/engineering/introducing-husky |
 |02:16|Quastor｜一个汇集大厂架构分析的专栏频道|https://quastor.substack.com/|
+
+
 ## 第21期 
 
 ### [Hacker News 周报] SQLite 再次流行；JS 性能分析指南；魔方竞速工具 CubeDesk 
@@ -344,6 +402,8 @@
 |01:54|CubeDesk｜魔方提速工具|https://www.cubedesk.io/home |
 |02:16|DFlex｜一个适配所有JS框架的可拖拽的工具库|https://www.dflex.dev/ |
 |02:30|一篇JS性能分析指南的文章|https://blog.atomrc.dev/p/js-performance-profiling/|
+
+
 ## 第20期 
 
 ### [Hacker News 周报] 浏览器中运行 Python；JSON 可视化神器；避免电脑休眠的网页 
@@ -360,6 +420,8 @@
 |01:39|nosleep｜避免电脑休眠的网页|https://nosleep.page/ |
 |02:00|一篇关于Golang的文章|https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang |
 |02:21|移植到web上的《塞尔达传说》|https://hoten.cc/blog/porting-zelda-classic-to-the-web|
+
+
 ## 第19期 
 
 ### [Hacker News周报] 性能分析工具合集；通过 TDD 学习 GO 语言；基于 Deno 的 serverless 平台 
@@ -375,6 +437,8 @@
 |01:31|EdgeFunction｜Netlify新推出的PaaS平台|https://www.netlify.com/blog/announcing-serverless-compute-with-edge-functions |
 |01:56|workmode｜远程工作助手|https://workmode.co/ |
 |02:25|pixy｜飞行相机|https://pixy.com/|
+
+
 ## 第18期 
 
 ### [Hacker News 周报] Meta 开源富文本编辑器 lexical；Yandex 开源分布式数据库 YDB；Node.js 18 发布 
