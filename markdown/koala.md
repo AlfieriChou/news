@@ -1,5 +1,118 @@
 # koala hacker news 
 
+## 第51期 
+
+### [Hacker News 周报] 浏览器中运行桌面环境；轻量级网站监控方案；可视化 React 组件 IDE 
+
+- [视频链接](https://www.bilibili.com/video/av563747625) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|Pynecone｜Python全栈Web开发方案| |
+|00:41|daedalOS｜浏览器中运行桌面环境| |
+|01:02|UptimeKuma｜轻量级网站监控方案| |
+|01:28|Codux｜可视化React组件IDE| |
+|01:57|Vite发布4.0大版本| |
+|02:31|Blockbench｜创建low-poly视觉风格的3D模型编辑器| |
+|Bgm｜Around|theGlobebyTySimon| |
+
+
+## 第50期 
+
+### [Hacker News 周报] OpenAI 开放 ChatGPT 模型；NLP 在线课程；k8s 流量监测工具 
+
+- [视频链接](https://www.bilibili.com/video/av903386514) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|OpenAI开放ChatGPT模型|https://openai.com/blog/chatgpt/  |
+|00:39|Google推出安全编程语言Rune|https://github.com/google/rune  |
+|01:03|Kubeshark｜k8s流量观测工具|https://github.com/kubeshark/kubeshark  |
+|01:28|cheat.sh｜技术小抄集合|https://github.com/chubin/cheat.sh  |
+|01:50|go-coffeeshop｜GO的微服务示例|https://github.com/thangchung/go-coffeeshop |
+|02:09|NLP在线课程|https://www.nlpdemystified.org/ |
+|02:25《Sql|forDevs》｜数据库详解电子书|https://sqlfordevs.com/ebook|
+
+
+## 第49期 
+
+### [Hacker News 周报] Stable Diffusion AI 作画 V2；开源数据可视化平台；命令行的艺术 
+
+- [视频链接](https://www.bilibili.com/video/av690620840) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|ScriptKit｜面向开发者的自动化工具，|https://www.scriptkit.com/ |
+|00:27|D2｜开源声明式绘图语言| https://d2lang.com/  |
+|00:51|Superset｜开源数据可视化平台|https://superset.apache.org/   |
+|01:10|StableDiffusion发布2.0版本|https://stability.ai/blog/stable-diffusion-v2-release |
+|01:39|蚂蚁UI组件库AntDesign发布V5版本|https://github.com/ant-design/ant-design/issues/38671 |
+|01:58|《命令行的艺术》项目|https://github.com/jlevy/the-art-of-command-line  |
+|02:20|Diátaxis｜帮助创作技术文档的写作框架|https://diataxis.fr/|
+
+
+## 第48期 
+
+### [Hacker News 周报] Mathematica 开源替代品；数据库领域多个新项目；Meta 大规模代码管理方案 
+
+- [视频链接](https://www.bilibili.com/video/av902826595) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:10|Redpanda｜与KafkaPAI兼容的流式数据平台|https://redpanda.com/  |
+|00:39|Autocut｜通过字幕剪切视频的工具|https://github.com/mli/autocut  |
+|01:03|Sapling｜Meta大规模代码管理方案|https://engineering.fb.com/2022/11/15/open-source/sapling-source-control-scalable |
+|01:28|Greptime｜分布式时序数据库|https://github.com/GreptimeTeam/greptimedb  |
+|02:01|COZO｜事务型关系嵌入式数据库|https://github.com/cozodb/cozo  |
+|02:25|Mathics｜Mathematica开源替代品|https://mathics.org/|
+
+
+## 第47期 
+
+### [Hacker News 周报] GitHub 下一代功能；Docker 支持 Webassembly；新式代码教学工具 
+
+- [视频链接](https://www.bilibili.com/video/av262544844) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|GithubNext｜GitHub下一代功能|https://blocks.githubnext.com/ |
+|00:35|podmandesktop｜可视化容器与K8s管理工具|https://podman-desktop.io/ |
+|00:55|Docker支持Webassembly|https://www.docker.com/blog/docker-wasm-technical-preview/ |
+|01:22|Rome发布第一个稳定版本Romev10|https://rome.tools/blog/2022/11/08/rome-10/ |
+|01:45|Blessed｜Rust教程|https://blessed.rs/crates |
+|02:08|Pickcode｜新式代码教学工具|https://app.pickcode.io/course/hoc-ad-libs-chatbot  |
+|02:30|.Net发布了新版本.Net7|https://devblogs.microsoft.com/dotnet/announcing-dotnet-7/|
+
+
+## 第46期 
+
+### [Hacker News 周报] Grafana Labs 新产品；Vite 与 Turbopack 性能对比；Heroku 替代方案 
+
+- [视频链接](https://www.bilibili.com/video/av774867810) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|phlare00:38ApacheAGE00:56JC01:35history01:56ffmpegguide02:14trub...| |
+|https://www.bilibili.com/h5/note-app/view?cvid=19564870&pagefrom=comment&richtext=true|| |
+
+
+## 第45期 
+
+### [Hacker News 周报] Vercel 推出 Webpack 替代品；Python 发布新版；轻量级搜索引擎 Sonic 
+
+- [视频链接](https://www.bilibili.com/video/av732078145) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|Vercel推出webpack替代品|https://vercel.com/blog/turbopack |
+|00:50|Python发布新版本|https://discuss.python.org/t/python-3-11-0-final-is-now-available/20291 |
+|01:04|轻量级搜索引擎Sonic|https://github.com/valeriansaliou/sonic |
+|01:30|Answer｜SegmentFault开源的知识类库|https://answer.dev/ |
+|01:51|openvim｜交互式的Vim教程|https://www.openvim.com/ |
+|02:07|Bolt.css｜HTML的样式表|https://boltcss.com/ |
+|02:33|StarterTab｜自定义主页工具|https://startertab.com/|
+
+
 ## 第44期 
 
 ### [Hacker News 周报] 手机编程 App；WebAssembly 应用；高性能 TypeScript 编译器 
