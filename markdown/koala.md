@@ -1,5 +1,54 @@
 # koala hacker news 
 
+## 第54期 
+
+### [Hacker News 周报] Google 内部 Rust 教程；从零学习开发 CDN；serverless 数据库对比 
+
+- [视频链接](https://www.bilibili.com/video/av522059106) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:11|APITable｜新开源的Airtable替代品|https://github.com/apitable/apitable |
+|00:35|CDNUpandRunning｜从零学习开发CDN|https://github.com/leandromoreira/cdn-up-and-running |
+|00:59|ComprehensiveRust｜Google内部Rust教程|https://github.com/google/comprehensive-rust |
+|01:23|OSV-Scanner｜查找代码依赖中的安全漏洞|https://github.com/google/osv-scanner |
+|01:56|Hubble｜Githubstar管理工具|https://hubble.monsterx.xyz/ |
+|02:2|一篇serverless数据库对比的博客|https://fauna.com/blog/comparison-of-serverless-databases|
+
+
+## 第53期 
+
+### [Hacker News 周报] Obsidian Canvas 发布；开源免费视频会议服务；一周末复刻赛伯朋克中的语音识别 
+
+- [视频链接](https://www.bilibili.com/video/av776719511) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:11|ObsidianCanvas发布|https://obsidian.md/canvas |
+|00:35|Jitsi｜开源免费的视频会议服务|https://jitsi.org/ |
+|00:59|Infisical｜安全地传递密钥等隐私数据的工具|https://github.com/Infisical/infisical |
+|01:23|一周末复刻赛伯朋克中的语音识别|https://github.com/elanmart/cbp-translate |
+|01:56|Winglang｜面向云计算的开发语言|https://www.winglang.io/ |
+|02:21|一篇文章介绍如何在1毫秒内搜索37GB文本的文章|https://death.andgravity.com/pwned|
+
+
+## 第52期 
+
+### [Hacker News 周报] 高性能 Python 编译器；Linux 文本处理技巧；在命令行中渲染 Markdown； 
+
+- [视频链接](https://www.bilibili.com/video/av306398153) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:11|Codon｜高性能Python编译器|https://github.com/exaloop/codon |
+|00:38|CLIExercises｜Linux文本处理技巧|https://github.com/learnbyexample/TUI-apps/tree/main/CLI-Exercises|
+|00:58|关于ChatGPT是如何工作的讨论和解读|https://news.ycombinator.com/item?id=33939805 & https://openai.com/blog/chatgpt/|
+|01:16|Reader｜集多种信息源于一体的阅读工具|https://readwise.io/read |
+|01:39|在命令行中渲染Markdown|https://github.com/charmbracelet/glow |
+|02:04|一篇关于QueryPlanner工作方式的博客|https://planetscale.com/blog/what-is-a-query-planner |
+|02:24|类似Wordle的中文字谜小游戏|https://hanzi.gg/|
+
+
 ## 第51期 
 
 ### [Hacker News 周报] 浏览器中运行桌面环境；轻量级网站监控方案；可视化 React 组件 IDE 
