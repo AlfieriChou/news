@@ -1,5 +1,21 @@
 # koala hacker news 
 
+## 第55期 
+
+### [Hacker News 周报] 发布 clickhouse-local；使用 HTTP/3 连接 MySQL；使用 WebAssembly 运行 Vim 
+
+- [视频链接](https://www.bilibili.com/video/av392417581) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|clickhouse发布数据分析工具clickhouse-local|https://clickhouse.com/blog/extracting-converting-querying-local-files-with-sql-clickhouse-local|
+|00:51|ov｜一个通用终端分页器|https://github.com/noborus/ov|
+|01:25|Vimonlineeditor｜使用WebAssembly运行Vim|https://www.vimonlineeditor.com/ |
+|01:52|使用HTTP/3连接MySQL|https://planetscale.com/blog/faster-mysql-with-http3 |
+|02:48|polars｜高性能RustDataFrame库|https://github.com/pola-rs/polars |
+|03:|29uiverse｜UI组件库|https://uiverse.io/|
+
+
 ## 第54期 
 
 ### [Hacker News 周报] Google 内部 Rust 教程；从零学习开发 CDN；serverless 数据库对比 
