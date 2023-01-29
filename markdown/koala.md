@@ -1,5 +1,53 @@
 # koala hacker news 
 
+## 第58期 
+
+### [Hacker News 周报] 基于 WebRTC 分享终端会话；自动化工作流工具；通过网络访问 SQLite 
+
+- [视频链接](https://www.bilibili.com/video/av223440610) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:10|一组可复用的UI组件|https://github.com/shadcn/ui |
+|00:49|WebTTY｜基于WebRTC分享终端会话|https://github.com/maxmcd/webtty |
+|01:18|bob｜面向微服务场景的打包工具|https://bob.build/ |
+|01:51|Automatisch｜自动化工作流工具|https://automatisch.io/ |
+|02:22|libSQL博客介绍通过网络访问SQLite|https://blog.chiselstrike.com/sqlite-based-databases-on-the-postgres-protocol-yes-we-can-358e61171d65 |
+|03:02|轻松一刻时间：小游戏SummerAfternoon|https://summer-afternoon.vlucendo.com/|
+
+
+## 第57期 
+
+### [Hacker News 周报] 2 小时开发 GPT 模型；持久化工作流平台；数据 ETL 工具 AirByte 
+
+- [视频链接](https://www.bilibili.com/video/av693361650) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|Temporal｜持久化工作流平台|https://temporal.io/|
+|00:43|AirByte｜数据ETL工具|https://airbyte.com/  |
+|01:20|RoughNotation｜|https://roughnotation.com/ |
+|01:42|barba.js｜页面间动效库|https://barba.js.org/  |
+|02:10|Vento｜可纠错的录屏工具|https://vento.so/ |
+|02:|36Cal.com｜日程管理工具|https://cal.com/ |
+|02:53|2小时开发GPT模型|https://www.youtube.com/watch?v=kCc8FmEb1nY|
+
+
+## 第56期 
+
+### [Hacker News 周报] 简单有趣的 serverless 平台；自动化数据探索工具；Google 开源文件同步工具 
+
+- [视频链接](https://www.bilibili.com/video/av607779129) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:10|val.town｜简单有趣的serverless平台|https://www.val.town/ |
+|00:43|CDCFileTransfer｜Google开源文件同步工具|https://github.com/google/cdc-file-transfer |
+|01:13|just｜使用Rust开发的命令行工具|https://github.com/casey/just |
+|01:37|Rath｜自动化数据探索工具|https://github.com/Kanaries/rath & https://github.com/Kanaries/graphic-walker https://pinggy.io/ |
+|02:08|pinggy｜将本地的服务对公网提供访问工具|https://2022.stateofjs.com/|
+
+
 ## 第55期 
 
 ### [Hacker News 周报] 发布 clickhouse-local；使用 HTTP/3 连接 MySQL；使用 WebAssembly 运行 Vim 
