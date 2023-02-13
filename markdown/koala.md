@@ -1,5 +1,40 @@
 # koala hacker news 
 
+## 第60期 
+
+### [Hacker News 周报] 开箱即用 OAuth 解决方案；React.JS 纪录片；Notion 风格的富文本编辑器 
+
+- [视频链接](https://www.bilibili.com/video/av651723868) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:|09Nango｜开箱即用OAuth解决方案|https://www.nango.dev/ |
+|00:|32yq｜多种文件格式解析器|https://github.com/mikefarah/yq |
+|00:|53PhotoPrism｜一款照片管理程序|https://www.photoprism.app/ |
+|01:|14grepapp｜一个代码搜索平台|https://grep.app/ |
+|01:|32enrolla｜开源featureflag管理平台|https://www.enrolla.io/  |
+|01:|52Notion风格的富文本编辑器|https://github.com/YousefED/BlockNote |
+|02:|13UniversalSummarizer｜搜索引擎Kagi推出新技术|https://labs.kagi.com/ai/sum |
+|02:|37React.JS纪录片|https://www.youtube.com/watch?v=8pDqJVdNa44|
+
+
+## 第59期 
+
+### [Hacker News 周报] 开源 CRDT 2.0；终端中运行浏览器；Netlify 收购 Gatsby 
+
+- [视频链接](https://www.bilibili.com/video/av393866597) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|CRDT协同算法库Automerge发布2.0版本| |
+|00:41|Carbonyl｜终端中运行浏览器| |
+|01:13|Netlify收购Gatsby| |
+|01:52|SameEnergy｜视觉搜索引擎| |
+|02:07|DIY空气质量检测仪| |
+|02:31|Hashicorp开源文档管理系统Hermes| |
+|Bgm｜|UnequalbyMichaelVignola| |
+
+
 ## 第58期 
 
 ### [Hacker News 周报] 基于 WebRTC 分享终端会话；自动化工作流工具；通过网络访问 SQLite 
