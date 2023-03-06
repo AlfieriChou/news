@@ -1,5 +1,53 @@
 # koala hacker news 
 
+## 第63期 
+
+### [Hacker News 周报] Google 新编程框架；ChatGPT 官方 API；Typescript 5.0； 
+
+- [视频链接](https://www.bilibili.com/video/av525565712) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:|10Google发布新编程框架ServiceWeaver|https://opensource.googleblog.com/2023/03/introducing-service-weaver-framework-for-writing-distributed-applications.html |
+|00:|44Remult｜快速CRUD框架|https://github.com/remult/remult |
+|01:|16Typescript发布5.0候选版本|https://devblogs.microsoft.com/typescript/announcing-typescript-5-0-rc/ |
+|01:|38ChatGPT官方API出炉|https://openai.com/blog/introducing-chatgpt-and-whisper-apis |
+|02:|04Mathesar｜开源Postgres数据库GUI管理工具|https://github.com/centerofci/mathesar |
+|02:|24Unfolder｜将3D模型生成折纸零件图纸的工具|https://www.unfolder.app/|
+
+
+## 第62期 
+
+### [Hacker News 周报] 新一代设计工具；开源 Web 应用监控方案；自动生成 commit message 工具； 
+
+- [视频链接](https://www.bilibili.com/video/av652536608) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:|10Noya｜新一代设计工具|https://www.noya.io/  |
+|00:|40Highlight｜开源Web应用监控方案|https://www.highlight.io/  |
+|01:|01Faro｜Grafana开源的Web前端可观测性工具|https://grafana.com/oss/faro/ |
+|01:|23Laudspeaker｜开源的客户旅程自动化平台|https://laudspeaker.com/ |
+|01:|43InfiniteStorageGlitch｜将视频网站变为免费网盘|https://github.com/DvorakDwarf/Infinite-Storage-Glitch |
+|02:|10AICommits｜自动生成commitmessage工具|https://github.com/Nutlope/aicommits|
+
+
+## 第61期 
+
+### [Hacker News 周报] 开源多云网盘；Helm Web UI；ChatGPT 讲解文章 
+
+- [视频链接](https://www.bilibili.com/video/av609553518) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|https://alist.nn.ci/|| |
+|https://github.com/komodorio/helm-dashboard|| |
+|https://www.rerun.io/|| |
+|https://github.com/sveinbjornt/Sloth|| |
+|https://bright.codehike.org/|| |
+|https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/|| |
+
+
 ## 第60期 
 
 ### [Hacker News 周报] 开箱即用 OAuth 解决方案；React.JS 纪录片；Notion 风格的富文本编辑器 
