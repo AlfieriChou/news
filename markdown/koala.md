@@ -1,5 +1,54 @@
 # koala hacker news 
 
+## 第66期 
+
+### [Hacker News 周报] ChatGPT 发布插件能力；功能强大使用便捷的排版系统；Adobe 推出 AI 创意工具 
+
+- [视频链接](https://www.bilibili.com/video/av866597183) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|ChatGPT发布插件能力|https://openai.com/blog/chatgpt-plugins|
+|00:43|Adobe推出AI创意工具|https://www.adobe.com/sensei/generative-ai/firefly.html|
+|01:12|DataPane｜数据科学家和分析师的平台|https://datapane.com/|
+|01:34|pg_activity｜交互式命令行工具|https://github.com/dalibo/pg_activity|
+|01:59|PlayWright推出新的UI模式|https://github.com/microsoft/playwright/releases/tag/v1.32.0|
+|02:22|Typst｜功能强大使用便捷的排版系统|https://github.com/typst/typst|
+
+
+## 第65期 
+
+### [Hacker News 周报]  GPT-4 发布；Wasm 跨语言运行时；React 新官网上线 
+
+- [视频链接](https://www.bilibili.com/video/av611243164) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|GPT-4发布|https://openai.com/research/gpt-4 |
+|00:43|Transformer.js｜在浏览器中运行Transformer模型|https://xenova.github.io/transformers.js/ |
+|01:09|FlameScope｜Netflix开源的性能可视化分析工具|https://github.com/Netflix/flamescope https://blog.felixge.de/flamescope-for-go/ https://github.com/johnkerl/miller |
+|01:35|Miller｜命令行重度使用者的瑞士军刀|https://scale.sh/ |
+|01:55|Scale｜Wasm跨语言运行时|https://zed.dev/ |
+|02:16|代码编辑器Zed进入Beta阶段|https://www.tremor.so/|
+|02:41|tremor｜开发概览类视图的ReactUI库|https://react.dev/|
+
+
+## 第64期 
+
+### [Hacker News 周报] Vue 全功能表单框架；软件定义键盘；从 SQL 语句中推断 Typescript 类型 
+
+- [视频链接](https://www.bilibili.com/video/av568373000) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:10|FormKit｜Vue全功能表单框架|https://formkit.com/|
+|00:|31PgTyped｜从SQL语句中推断Typescript类型|https://github.com/adelsz/pgtyped|
+|00:|57Flux｜软件定义键盘|https://fluxkeyboard.com/|
+|01:|20lightdash｜轻量级的BI工具|https://github.com/lightdash/lightdash|
+|01:|36OpenDAL｜开源通用数据接入层|https://github.com/datafuselabs/opendal|
+|01:|55ZincSearch｜ElasticSearch的轻量级替代品|https://github.com/zinclabs/zincsearch|
+
+
 ## 第63期 
 
 ### [Hacker News 周报] Google 新编程框架；ChatGPT 官方 API；Typescript 5.0； 
@@ -288,8 +337,6 @@
 
 |时间轴|简介|链接|
 |:--:|:--:|:--:|
-|00:09|phlare00:38ApacheAGE00:56JC01:35history01:56ffmpegguide02:14trub...| |
-|https://www.bilibili.com/h5/note-app/view?cvid=19564870&pagefrom=comment&richtext=true|| |
 
 
 ## 第45期 
