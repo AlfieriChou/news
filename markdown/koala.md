@@ -1,5 +1,21 @@
 # koala hacker news 
 
+## 第67期 
+
+### [Hacker News 周报] 在编辑器中和 AI 结对编程；高性能 Go 哈希表；训练自己的 AI 模型 
+
+- [视频链接](https://www.bilibili.com/video/av354428596) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|Cursor｜在编辑器中和AI结对编程|https://github.com/getcursor/cursor|
+|00:39|SwissTable｜高性能Go哈希表|https://www.dolthub.com/blog/2023-03-28-swiss-map/|
+|01:09|Sidekick｜训练自己的数据AI模型|https://www.getsidekick.ai/|
+|01:37|Convoy｜聚焦WebhookGateway的服务端中间件|https://getconvoy.io/|
+|02:08|Notesnook｜专注于隐私和易用性的笔记软件|https://github.com/streetwriters/notesnook|
+|02:29|React团队介绍ReactLab研究进展|https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023|
+
+
 ## 第66期 
 
 ### [Hacker News 周报] ChatGPT 发布插件能力；功能强大使用便捷的排版系统；Adobe 推出 AI 创意工具 
