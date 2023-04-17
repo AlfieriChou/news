@@ -1,5 +1,37 @@
 # koala hacker news 
 
+## 第69期 
+
+### [Hacker News 周报] 面向开发者的 AI 搜索引擎；交互式代码文档；有趣的人体键盘 
+
+- [视频链接](https://www.bilibili.com/video/av227523967) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:10|Phind｜面向开发者的AI搜索引擎|https://www.phind.com/|
+|00:38|Sniffnet｜跨平台网络监测工具|https://github.com/GyulyVGC/sniffnet|
+|01:05|CodeHike｜交互式代码文档|https://github.com/code-hike/codehike|
+|01:27|Auto-GPT｜让AI产出提示语|https://github.com/Significant-Gravitas/Auto-GPT|
+|02:02|FUTUREPEDIA｜AI工具目录|https://www.futurepedia.io/|
+|02:26|有趣的人体键盘|https://github.com/everythingishacked/Semaphore|
+
+
+## 第68期 
+
+### [Hacker News 周报] Facebook 发布图像识别新模型；Twitter 开源推荐算法；Rust 编写流式计算引擎 
+
+- [视频链接](https://www.bilibili.com/video/av484672088) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:10|Meta发布图像识别新模型|https://github.com/facebookresearch/segment-anything|
+|00:41|Twitter开源推荐算法|https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm|
+|01:06|Arroyo｜Rust编写流式计算引擎|https://github.com/ArroyoSystems/arroyo|
+|01:38|openplayground｜GithubCEO发起的AIplayground项目|https://github.com/nat/openplayground|
+|02:00|Quadratic｜一个有创意的数据工具|https://www.quadratichq.com/|
+|02:23|Midjourney与AdobeFirefly对比引发对版权关注|https://twitter.com/DrJimFan/status/1642921475849203712|
+
+
 ## 第67期 
 
 ### [Hacker News 周报] 在编辑器中和 AI 结对编程；高性能 Go 哈希表；训练自己的 AI 模型 
