@@ -1,5 +1,21 @@
 # koala hacker news 
 
+## 第70期 
+
+### [Hacker News 周报] 轻量灵活的 BI 工具；高性能数据库连接池；开源函数服务框架 
+
+- [视频链接](https://www.bilibili.com/video/av825312999) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|Evidence｜轻量灵活的BI工具|https://evidence.dev/|
+|00:36|Uptrace｜一个开源的APM服务|https://github.com/uptrace/uptrace|
+|01:09|Supavisor｜高性能数据库连接池|https://github.com/supabase/supavisor|
+|01:33|EdgeRuntime｜开源函数服务框架|https://supabase.com/blog/edge-runtime-self-hosted-deno-functions|
+|02:02|SQLChat｜AI数据库查询工具|https://www.sqlchat.ai/|
+|02:34一篇介绍负载均衡基本概念和实现方法的博客||https://samwho.dev/load-balancing|
+
+
 ## 第69期 
 
 ### [Hacker News 周报] 面向开发者的 AI 搜索引擎；交互式代码文档；有趣的人体键盘 
