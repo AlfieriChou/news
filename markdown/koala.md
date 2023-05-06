@@ -1,5 +1,21 @@
 # koala hacker news 
 
+## 第71期 
+
+### [Hacker News 周报] 端到端后端开发平台；Babylon.JS 6.0 发布超强物理引擎；无代码训练自己的 ChatGPT 机器人 
+
+- [视频链接](https://www.bilibili.com/video/av313106255) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|Encore｜端到端后端开发平台|https://encore.dev/ |
+|00:44|Databerry｜无代码训练自己的ChatGPT机器人|https://www.databerry.ai/|
+|01:10|Babylon.JS6.0发布超强物理引擎|https://babylonjs.medium.com/announcing-babylon-js-6-0-dcb5f1662e3a|
+|01:48|Linen｜将Slack和Discord对话转换为Web页|https://www.linen.dev/|
+|02:13|BulletTrain｜为SaaS开发者提供开箱即用开发框架|https://bullettrain.co/|
+|02:46|一篇关于PostgreSQL的博客|https://philbooth.me/blog/nine-ways-to-shoot-yourself-in-the-foot-with-postgresql|
+
+
 ## 第70期 
 
 ### [Hacker News 周报] 轻量灵活的 BI 工具；高性能数据库连接池；开源函数服务框架 
