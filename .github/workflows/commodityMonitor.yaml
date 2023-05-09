@@ -33,5 +33,6 @@ jobs:
         git config --global user.email "alfierichou@gmail.com"
         git config --global user.name "AlfieriChou"
         git add .
-        git commit -m "chore: commodity monitor ${{ steps.date.outputs.current_date }} update"
-        git push -u origin master
+        git commit -m "chore: commodity monitor ${{ steps.date.outputs.current_date }} update" --allow-empty
+        git remote add origin "github.com/AlfieriChou/news.git"
+        git push origin master
