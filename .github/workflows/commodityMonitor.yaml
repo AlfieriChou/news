@@ -35,4 +35,4 @@ jobs:
         git add .
         git commit -m "chore: commodity monitor ${{ steps.date.outputs.current_date }} update" --allow-empty
         git branch -a
-        git push origin master
+        git push origin HEAD:master
