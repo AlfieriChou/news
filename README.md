@@ -7,4 +7,5 @@ news scribe
 
 ## commodity-monitor
 
+- [praseodymium](https://github.com/AlfieriChou/news/blob/master/markdown/praseodymium.md)
 - [praseodymiumNeodymiumOxide](https://github.com/AlfieriChou/news/blob/master/markdown/praseodymiumNeodymiumOxide.md)
