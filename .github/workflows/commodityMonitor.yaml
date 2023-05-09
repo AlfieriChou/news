@@ -1,7 +1,7 @@
 name: commodity monitor
 on:
   schedule:
-    - cron: '0 14 17 * MON,TUE,WED,THU,FRI'
+    - cron: '14 17 * * MON,TUE,WED,THU,FRI'
 
 jobs:
   build:
