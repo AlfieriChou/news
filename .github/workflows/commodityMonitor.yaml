@@ -34,4 +34,4 @@ jobs:
         git config --global user.name "AlfieriChou"
         git add .
         git commit -m "chore: commodity monitor ${{ steps.date.outputs.current_date }} update"
-        git push
+        git push origin master
