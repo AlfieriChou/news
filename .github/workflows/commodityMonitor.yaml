@@ -1,5 +1,9 @@
 name: commodity monitor
+
 on:
+  push:
+    branches:
+      - master
   schedule:
     - cron: '14 18,8 * * MON,TUE,WED,THU,FRI'
 
