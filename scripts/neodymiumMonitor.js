@@ -7,22 +7,22 @@ const logger = console
 const url = 'http://www.100ppi.com/kx/'
 
 const getList = async (page) => {
-  const infoUrl = `${url}detail-message-976--${page}.html`
+  const infoUrl = `${url}detail-message-977--${page}.html`
   const infoRet = await got(infoUrl)
   const list = infoRet.body
     .split('\r\n')
-    .filter(item => item.includes('[金属镨]'))
+    .filter(item => item.includes('[金属钕]'))
     .map(item => {
-      const [, content] = item.split('[金属镨]')
+      const [, content] = item.split('[金属钕]')
       const [message, dateStrSpan] = content.split(' <span>')
-      const [dateStr, price] = message.split('金属镨为')
+      const [dateStr, price] = message.split('金属钕为')
       const date = dateStrSpan.split('</span>')[0]
       return {
-        id: hash(`${dateStr}_金属镨`),
+        id: hash(`${dateStr}_金属钕`),
         dateStr: `${new Date().getFullYear()}年${dateStr}`,
         date: new Date(date).setHours(0, 0, 0, 0),
         message,
-        name: '金属镨',
+        name: '金属钕',
         price: parseFloat(price)
       }
     })
@@ -36,7 +36,7 @@ const start = async () => {
     ...await getList(3)
   ]
   let existList = []
-  const filePath = path.resolve(__dirname, '../json/praseodymium.json')
+  const filePath = path.resolve(__dirname, '../json/neodymium.json')
   if (fs.existsSync(filePath)) {
     existList = require(filePath)
     list.forEach(item => {
@@ -48,19 +48,19 @@ const start = async () => {
   } else {
     existList = list
   }
-  logger.info('praseodymium list', list.length)
+  logger.info('neodymium list', list.length)
   fs.writeFileSync(
     filePath,
     JSON.stringify(existList.sort((a, b) => b.date - a.date), null, 2)
   )
   const mdList = []
-  mdList.push('# 金属镨价格变动趋势 \n')
+  mdList.push('# 金属钕价格变动趋势 \n')
   mdList.push('| 时间 | 价格 | 消息正文 |')
   mdList.push('|:--:|:--:|:--:|')
   existList.forEach((item) => {
     mdList.push(`|${item.dateStr}|${item.price}|${item.message}|`)
   })
-  fs.writeFileSync('./markdown/praseodymium.md', mdList.join('\n'))
+  fs.writeFileSync('./markdown/neodymium.md', mdList.join('\n'))
   logger.info('write file done')
 }
 
