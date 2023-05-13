@@ -1,5 +1,21 @@
 # koala hacker news 
 
+## 第72期 
+
+### [Hacker News 周报] 面向 AI 的编程语言 Mojo、Mozilla 收购新动向、基于 V8 的开源 serverless 平台 
+
+- [视频链接](https://www.bilibili.com/video/av783301696) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|Mojo｜面向AI的编程语言|https://www.modular.com/mojo|
+|00:51|Replit发布大语言模型replit-code-v1-3b|https://www.latent.space/p/reza-shabani#details  & https://huggingface.co/spaces/replit/replit-code-v1-3b-demo |
+|01:15|Fakespot｜Mozilla收购新动向|https://www.fakespot.com/|
+|01:52|lagon｜基于V8的开源serverless平台|https://lagon.app/|
+|02:39|Qwik发布v1.0版本|https://www.builder.io/blog/qwik-v1|
+|03:07|Frogmouth｜开源命令行Markdown浏览器|https://github.com/Textualize/frogmouth|
+
+
 ## 第71期 
 
 ### [Hacker News 周报] 端到端后端开发平台；Babylon.JS 6.0 发布超强物理引擎；无代码训练自己的 ChatGPT 机器人 
