@@ -1,5 +1,20 @@
 # koala hacker news 
 
+## 第73期 
+
+### [Hacker News 周报] 支持十万 token 的 AI 对话模型；MySQL + Git = Dolt；React Native 优化编译器 
+
+- [视频链接](https://www.bilibili.com/video/av826197972) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|Claude｜支持十万token的AI对话模型|https://www.anthropic.com/index/100k-context-windows|
+|00:49|Dolt｜包含版本控制功能的SQL数据库|https://www.dolthub.com/blog/2023-05-05-dolt-1-dot-0/|
+|01:24|Qdrant｜基于Rust的向量数据库|https://github.com/qdrant/qdrant https://www.pinecone.io/learn/vector-database  https://github.com/syncthing/syncthing|
+|01:58|Syncthing｜文件持续同步工具|https://livefir.fly.dev/|
+|02:25|Fir｜为Go开发者设计的WebUI开发框架|https://tamagui.dev/blog/version-one|
+
+
 ## 第72期 
 
 ### [Hacker News 周报] 面向 AI 的编程语言 Mojo、Mozilla 收购新动向、基于 V8 的开源 serverless 平台 
