@@ -1,5 +1,21 @@
 # koala hacker news 
 
+## 第74期 
+
+### [Hacker News 周报] 低代码 + serverless = ?；WebAssembly 性能分析工具；AI 一周概述 
+
+- [视频链接](https://www.bilibili.com/video/av953920150) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|Windmill｜低代码+serverless=?|https://github.com/windmill-labs/windmill|
+|00:42|Supabase为文档/集成与ChatGPT类似的问答搜索体验|https://supabase.com/blog/openai-embeddings-postgres-vector|
+|01:13|Bytebase发布了2.0版本|https://www.bytebase.com/blog/bytebase-2-0/|
+|01:33|Bun/本周发布新版本v0.6|https://bun.sh/blog/bun-bundler |
+|02:11|pprof｜WebAssembly性能分析工具|https://blog.stealthrocket.tech/performance-in-the-spotlight-webassembly-profiling-for-everyone/|
+|02:43|AI一周概述|https://twitter.com/rowancheung/status/1659650892071616512|
+
+
 ## 第73期 
 
 ### [Hacker News 周报] 支持十万 token 的 AI 对话模型；MySQL + Git = Dolt；React Native 优化编译器 
