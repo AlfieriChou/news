@@ -1,37 +1,5 @@
 [
   {
-    "securityCode": "300119",
-    "securityNameAbbr": "瑞普生物",
-    "freeDate": "2023-05-31 00:00:00",
-    "currentFreeShares": 163.76,
-    "ableFreeShares": 163.76,
-    "liftMarketCap": 3224.4344,
-    "freeRatio": 0.005068911411,
-    "new": 19.69,
-    "b20Adjchrate": null,
-    "a20Adjchrate": null,
-    "freeSharesType": "股权激励限售股份",
-    "totalRatio": 0.003499004846,
-    "nonFreeShares": 14331.3792,
-    "batchHolderNum": 6
-  },
-  {
-    "securityCode": "002229",
-    "securityNameAbbr": "鸿博股份",
-    "freeDate": "2023-05-31 00:00:00",
-    "currentFreeShares": 165,
-    "ableFreeShares": 165,
-    "liftMarketCap": 3296.7,
-    "freeRatio": 0.003345740956,
-    "new": 19.98,
-    "b20Adjchrate": null,
-    "a20Adjchrate": null,
-    "freeSharesType": "股权激励限售股份",
-    "totalRatio": 0.003310964172,
-    "nonFreeShares": 352.9962,
-    "batchHolderNum": 5
-  },
-  {
     "securityCode": "300628",
     "securityNameAbbr": "亿联网络",
     "freeDate": "2023-06-01 00:00:00",
@@ -208,22 +176,6 @@
     "batchHolderNum": 14
   },
   {
-    "securityCode": "688683",
-    "securityNameAbbr": "莱尔科技",
-    "freeDate": "2023-06-01 00:00:00",
-    "currentFreeShares": 527.6929,
-    "ableFreeShares": 527.6929,
-    "liftMarketCap": 12094.721268,
-    "freeRatio": 0.091255300384,
-    "new": 22.92,
-    "b20Adjchrate": null,
-    "a20Adjchrate": null,
-    "freeSharesType": "定向增发机构配售股份",
-    "totalRatio": 0.034022110569,
-    "nonFreeShares": 9200,
-    "batchHolderNum": 7
-  },
-  {
     "securityCode": "002196",
     "securityNameAbbr": "方正电机",
     "freeDate": "2023-06-01 00:00:00",
@@ -366,6 +318,22 @@
     "totalRatio": 0.002511341606,
     "nonFreeShares": 1113.48,
     "batchHolderNum": 12
+  },
+  {
+    "securityCode": "688683",
+    "securityNameAbbr": "莱尔科技",
+    "freeDate": "2023-06-02 00:00:00",
+    "currentFreeShares": 527.6929,
+    "ableFreeShares": 527.6929,
+    "liftMarketCap": 12305.798428,
+    "freeRatio": 0.091255300384,
+    "new": 23.32,
+    "b20Adjchrate": null,
+    "a20Adjchrate": null,
+    "freeSharesType": "定向增发机构配售股份",
+    "totalRatio": 0.034022110569,
+    "nonFreeShares": 9200,
+    "batchHolderNum": 7
   },
   {
     "securityCode": "600475",
@@ -1824,22 +1792,6 @@
     "batchHolderNum": 12
   },
   {
-    "securityCode": "301135",
-    "securityNameAbbr": "瑞德智能",
-    "freeDate": "2023-06-12 00:00:00",
-    "currentFreeShares": 283.2,
-    "ableFreeShares": 283.2,
-    "liftMarketCap": 7312.224,
-    "freeRatio": 0.060739946381,
-    "new": 25.82,
-    "b20Adjchrate": null,
-    "a20Adjchrate": null,
-    "freeSharesType": "首发原股东限售股份",
-    "totalRatio": 0.027456227096,
-    "nonFreeShares": 5368.9,
-    "batchHolderNum": 1
-  },
-  {
     "securityCode": "002442",
     "securityNameAbbr": "龙星化工",
     "freeDate": "2023-06-12 00:00:00",
@@ -1854,6 +1806,22 @@
     "totalRatio": 0.005769936025,
     "nonFreeShares": 559.3575,
     "batchHolderNum": 10
+  },
+  {
+    "securityCode": "301135",
+    "securityNameAbbr": "瑞德智能",
+    "freeDate": "2023-06-12 00:00:00",
+    "currentFreeShares": 283.2,
+    "ableFreeShares": 283.2,
+    "liftMarketCap": 7312.224,
+    "freeRatio": 0.060739946381,
+    "new": 25.82,
+    "b20Adjchrate": null,
+    "a20Adjchrate": null,
+    "freeSharesType": "首发原股东限售股份",
+    "totalRatio": 0.027456227096,
+    "nonFreeShares": 5368.9,
+    "batchHolderNum": 1
   },
   {
     "securityCode": "601965",
@@ -5424,22 +5392,6 @@
     "batchHolderNum": 7
   },
   {
-    "securityCode": "002328",
-    "securityNameAbbr": "新朋股份",
-    "freeDate": "2023-06-30 00:00:00",
-    "currentFreeShares": 300,
-    "ableFreeShares": 300,
-    "liftMarketCap": 1704,
-    "freeRatio": 0.005305162721,
-    "new": 5.68,
-    "b20Adjchrate": null,
-    "a20Adjchrate": null,
-    "freeSharesType": "股权激励限售股份",
-    "totalRatio": 0.003887168457,
-    "nonFreeShares": 20275.8104,
-    "batchHolderNum": 6
-  },
-  {
     "securityCode": "872392",
     "securityNameAbbr": "佳合科技",
     "freeDate": "2023-06-30 00:00:00",
@@ -5454,6 +5406,22 @@
     "totalRatio": 0.051107325383,
     "nonFreeShares": 4356.76,
     "batchHolderNum": 2
+  },
+  {
+    "securityCode": "002328",
+    "securityNameAbbr": "新朋股份",
+    "freeDate": "2023-06-30 00:00:00",
+    "currentFreeShares": 300,
+    "ableFreeShares": 300,
+    "liftMarketCap": 1704,
+    "freeRatio": 0.005305162721,
+    "new": 5.68,
+    "b20Adjchrate": null,
+    "a20Adjchrate": null,
+    "freeSharesType": "股权激励限售股份",
+    "totalRatio": 0.003887168457,
+    "nonFreeShares": 20275.8104,
+    "batchHolderNum": 6
   },
   {
     "securityCode": "301297",
