@@ -9,6 +9,7 @@ news scribe
 
 - [praseodymium-金属镨](https://github.com/AlfieriChou/news/blob/master/markdown/commodity/praseodymium.md)
 - [neodymium-金属钕](https://github.com/AlfieriChou/news/blob/master/markdown/commodity/neodymium.md)
+- [dysprosiumMetal-金属镝](https://github.com/AlfieriChou/news/blob/master/markdown/commodity/dysprosiumMetal.md)
 - [neodymiumOxide-氧化钕](https://github.com/AlfieriChou/news/blob/master/markdown/commodity/neodymiumOxide.md)
 - [praseodymiumNeodymiumOxide-镨钕氧化物](https://github.com/AlfieriChou/news/blob/master/markdown/commodity/praseodymiumNeodymiumOxide.md)
 - [dyFeAlloy-镝铁合金](https://github.com/AlfieriChou/news/blob/master/markdown/commodity/dyFeAlloy.md)

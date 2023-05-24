@@ -12,6 +12,7 @@ koala:
 
 commodity-monitor:
 	node scripts/commodity/dyFeAlloyMonitor.js
+	node scripts/commodity/dysprosiumMetalMonitor.js
 	node scripts/commodity/neodymiumMonitor.js
 	node scripts/commodity/neodymiumOxideMonitor.js
 	node scripts/commodity/praseodymiumMonitor.js
