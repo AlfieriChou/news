@@ -10,3 +10,7 @@ news scribe
 - [praseodymium](https://github.com/AlfieriChou/news/blob/master/markdown/praseodymium.md)
 - [neodymium](https://github.com/AlfieriChou/news/blob/master/markdown/neodymium.md)
 - [praseodymiumNeodymiumOxide](https://github.com/AlfieriChou/news/blob/master/markdown/praseodymiumNeodymiumOxide.md)
+
+## stock
+
+- [unlock stock](https://github.com/AlfieriChou/news/blob/master/markdown/unlockStock)

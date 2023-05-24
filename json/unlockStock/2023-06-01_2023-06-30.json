@@ -1040,22 +1040,6 @@
     "batchHolderNum": 1
   },
   {
-    "securityCode": "301266",
-    "securityNameAbbr": "宇邦新材",
-    "freeDate": "2023-06-07 00:00:00",
-    "currentFreeShares": 300,
-    "ableFreeShares": 300,
-    "liftMarketCap": 16320,
-    "freeRatio": 0.115384615385,
-    "new": 54.4,
-    "b20Adjchrate": null,
-    "a20Adjchrate": null,
-    "freeSharesType": "首发原股东限售股份",
-    "totalRatio": 0.028846153846,
-    "nonFreeShares": 7500,
-    "batchHolderNum": 2
-  },
-  {
     "securityCode": "430300",
     "securityNameAbbr": "辰光医疗",
     "freeDate": "2023-06-07 00:00:00",
@@ -1070,6 +1054,22 @@
     "totalRatio": 0.034945840819,
     "nonFreeShares": 3361.9017,
     "batchHolderNum": 8
+  },
+  {
+    "securityCode": "301266",
+    "securityNameAbbr": "宇邦新材",
+    "freeDate": "2023-06-07 00:00:00",
+    "currentFreeShares": 300,
+    "ableFreeShares": 300,
+    "liftMarketCap": 16320,
+    "freeRatio": 0.115384615385,
+    "new": 54.4,
+    "b20Adjchrate": null,
+    "a20Adjchrate": null,
+    "freeSharesType": "首发原股东限售股份",
+    "totalRatio": 0.028846153846,
+    "nonFreeShares": 7500,
+    "batchHolderNum": 2
   },
   {
     "securityCode": "831087",
@@ -1792,22 +1792,6 @@
     "batchHolderNum": 12
   },
   {
-    "securityCode": "002442",
-    "securityNameAbbr": "龙星化工",
-    "freeDate": "2023-06-12 00:00:00",
-    "currentFreeShares": 283.2,
-    "ableFreeShares": 283.2,
-    "liftMarketCap": 1418.832,
-    "freeRatio": 0.005870714613,
-    "new": 5.01,
-    "b20Adjchrate": null,
-    "a20Adjchrate": null,
-    "freeSharesType": "股权激励限售股份",
-    "totalRatio": 0.005769936025,
-    "nonFreeShares": 559.3575,
-    "batchHolderNum": 10
-  },
-  {
     "securityCode": "301135",
     "securityNameAbbr": "瑞德智能",
     "freeDate": "2023-06-12 00:00:00",
@@ -1822,6 +1806,22 @@
     "totalRatio": 0.027456227096,
     "nonFreeShares": 5368.9,
     "batchHolderNum": 1
+  },
+  {
+    "securityCode": "002442",
+    "securityNameAbbr": "龙星化工",
+    "freeDate": "2023-06-12 00:00:00",
+    "currentFreeShares": 283.2,
+    "ableFreeShares": 283.2,
+    "liftMarketCap": 1418.832,
+    "freeRatio": 0.005870714613,
+    "new": 5.01,
+    "b20Adjchrate": null,
+    "a20Adjchrate": null,
+    "freeSharesType": "股权激励限售股份",
+    "totalRatio": 0.005769936025,
+    "nonFreeShares": 559.3575,
+    "batchHolderNum": 10
   },
   {
     "securityCode": "601965",
@@ -4741,14 +4741,14 @@
     "freeDate": "2023-06-27 00:00:00",
     "currentFreeShares": 1767.7782,
     "ableFreeShares": 1767.7782,
-    "liftMarketCap": 45891.522072,
+    "liftMarketCap": 46580.95557,
     "freeRatio": 0.103120993789,
-    "new": 25.96,
+    "new": 26.35,
     "b20Adjchrate": null,
     "a20Adjchrate": null,
     "freeSharesType": "定向增发机构配售股份",
     "totalRatio": 0.054558798775,
-    "nonFreeShares": 13490.8044,
+    "nonFreeShares": 13464.9359,
     "batchHolderNum": 14
   },
   {
@@ -5392,22 +5392,6 @@
     "batchHolderNum": 7
   },
   {
-    "securityCode": "872392",
-    "securityNameAbbr": "佳合科技",
-    "freeDate": "2023-06-30 00:00:00",
-    "currentFreeShares": 300,
-    "ableFreeShares": 300,
-    "liftMarketCap": 1992,
-    "freeRatio": 0.247271768158,
-    "new": 6.64,
-    "b20Adjchrate": null,
-    "a20Adjchrate": null,
-    "freeSharesType": "公开发行战略配售股份",
-    "totalRatio": 0.051107325383,
-    "nonFreeShares": 4356.76,
-    "batchHolderNum": 2
-  },
-  {
     "securityCode": "002328",
     "securityNameAbbr": "新朋股份",
     "freeDate": "2023-06-30 00:00:00",
@@ -5422,6 +5406,22 @@
     "totalRatio": 0.003887168457,
     "nonFreeShares": 20275.8104,
     "batchHolderNum": 6
+  },
+  {
+    "securityCode": "872392",
+    "securityNameAbbr": "佳合科技",
+    "freeDate": "2023-06-30 00:00:00",
+    "currentFreeShares": 300,
+    "ableFreeShares": 300,
+    "liftMarketCap": 1992,
+    "freeRatio": 0.247271768158,
+    "new": 6.64,
+    "b20Adjchrate": null,
+    "a20Adjchrate": null,
+    "freeSharesType": "公开发行战略配售股份",
+    "totalRatio": 0.051107325383,
+    "nonFreeShares": 4356.76,
+    "batchHolderNum": 2
   },
   {
     "securityCode": "301297",
