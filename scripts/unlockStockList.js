@@ -2,6 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const got = require('got')
 const { sleep } = require('@galenjs/factories/sleep')
+const { camelJsonKeys } = require('@galenjs/factories/lodash')
 const { format } = require('date-fns')
 
 const logger = console
@@ -13,6 +14,8 @@ const getList = async ({
   endDate
 }, callback) => {
   const ret = await got(url, {
+    responseType: 'json',
+    resolveBodyOnly: true,
     searchParams: {
       sortColumns: 'FREE_DATE,CURRENT_FREE_SHARES',
       sortTypes: '1,1',
@@ -25,12 +28,13 @@ const getList = async ({
       filter: `(FREE_DATE>='${startDate}')(FREE_DATE<='${endDate}')`
     }
   })
+  logger.info('unlock stock list', startDate, endDate, page, JSON.stringify(ret))
   if (ret.code === 0) {
     callback(ret)
   }
-  if (ret.result.page > page) {
+  if (ret.result.pages > page) {
     await sleep(2000)
-    await this.getList({
+    await getList({
       startDate,
       endDate,
       page: page + 1
@@ -49,7 +53,7 @@ const start = async () => {
     startDate,
     endDate
   }, async ret => {
-    list = list.concat(ret.result.data)
+    list = list.concat(camelJsonKeys(ret.result.data))
   })
   const filePath = path.resolve(__dirname, `../json/unlockStockList_${startDate}_${endDate}.json`)
   logger.info('unlock stock list', list.length)
@@ -57,6 +61,15 @@ const start = async () => {
     filePath,
     JSON.stringify(list, null, 2)
   )
+  const mdList = []
+  mdList.push('# 解禁股票列表 \n')
+  mdList.push('| 标的代码 | 标的名称 | 时间 |')
+  mdList.push('|:--:|:--:|:--:|')
+  list.forEach((item) => {
+    mdList.push(`|${item.securityCode}|${item.securityNameAbbr}|${item.freeDate}|`)
+  })
+  fs.writeFileSync(`./markdown/unlockStockList_${startDate}_${endDate}.md`, mdList.join('\n'))
+  logger.info('write file done')
 }
 
 start()
