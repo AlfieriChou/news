@@ -66,6 +66,8 @@ const start = async () => {
   )
   const mdList = []
   mdList.push('# 解禁股票列表 \n')
+  mdList.push('## 解禁周期 \n')
+  mdList.push(`${startDate} ~ ${endDate}\n`)
   mdList.push('| 标的代码 | 标的名称 | 解禁时间 | 限售股类型 | 解禁数量（股） | 实际解禁数量（股） | 占解禁前流通市值比例(%) |')
   mdList.push('|:--:|:--:|:--:|:--:|:--:|:--:|:--:|')
   list.forEach((item) => {
