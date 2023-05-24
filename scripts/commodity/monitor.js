@@ -6,6 +6,55 @@ const { sleep } = require('@galenjs/factories/sleep')
 
 const logger = console
 const url = 'http://www.100ppi.com/kx/'
+const commodityList = [{
+  code: '976',
+  name: '金属镨',
+  filename: 'praseodymium'
+}, {
+  code: '977',
+  name: '金属钕',
+  filename: 'neodymium'
+}, {
+  code: '978',
+  name: '金属镝',
+  filename: 'dysprosiumMetal'
+}, {
+  code: '979',
+  name: '氧化钕',
+  filename: 'neodymiumOxide'
+}, {
+  code: '980',
+  name: '氧化镨',
+  filename: 'praseodymiumOxide'
+}, {
+  code: '981',
+  name: '氧化镝',
+  filename: 'dysprosiumOxide'
+}, {
+  code: '982',
+  name: '镨钕合金',
+  filename: 'praseodymiumNeodymiumAlloy'
+}, {
+  code: '984',
+  name: '镝铁合金',
+  filename: 'dyFeAlloy'
+}, {
+  code: '1275',
+  name: '碳酸锂',
+  filename: 'lithium'
+}, {
+  code: '1399',
+  name: '氢氧化锂',
+  filename: 'lithiumHydroxide'
+}, {
+  code: '1401',
+  name: '磷酸铁锂',
+  filename: 'lithiumIronPhosphate'
+}, {
+  code: '1454',
+  name: '镨钕氧化物',
+  filename: 'praseodymiumNeodymiumOxide'
+}]
 
 const getList = async ({
   page, code, name
@@ -83,47 +132,14 @@ const syncCommodityData = async ({
 }
 
 const start = async () => {
-  await [{
-    code: '976',
-    name: '金属镨',
-    filename: 'praseodymium'
-  }, {
-    code: '977',
-    name: '金属钕',
-    filename: 'neodymium'
-  }, {
-    code: '978',
-    name: '金属镝',
-    filename: 'dysprosiumMetal'
-  }, {
-    code: '979',
-    name: '氧化钕',
-    filename: 'neodymiumOxide'
-  }, {
-    code: '980',
-    name: '氧化镨',
-    filename: 'praseodymiumOxide'
-  }, {
-    code: '981',
-    name: '氧化镝',
-    filename: 'dysprosiumOxide'
-  }, {
-    code: '982',
-    name: '镨钕合金',
-    filename: 'praseodymiumNeodymiumAlloy'
-  }, {
-    code: '984',
-    name: '镝铁合金',
-    filename: 'dyFeAlloy'
-  }, {
-    code: '1454',
-    name: '镨钕氧化物',
-    filename: 'praseodymiumNeodymiumOxide'
-  }].reduce(async (promise, data) => {
+  const startedAt = Date.now()
+  logger.info('sync commodity start')
+  await commodityList.reduce(async (promise, data) => {
     await promise
     await syncCommodityData(data)
     await sleep(Math.floor(Math.random() * (5000 - 3000) + 3000))
   }, Promise.resolve())
+  logger.info('sync commodity done', Date.now() - startedAt)
 }
 
 start()
