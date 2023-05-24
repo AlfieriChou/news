@@ -7,9 +7,11 @@ news scribe
 
 ## commodity-monitor
 
-- [praseodymium](https://github.com/AlfieriChou/news/blob/master/markdown/praseodymium.md)
-- [neodymium](https://github.com/AlfieriChou/news/blob/master/markdown/neodymium.md)
-- [praseodymiumNeodymiumOxide](https://github.com/AlfieriChou/news/blob/master/markdown/praseodymiumNeodymiumOxide.md)
+- [praseodymium-金属镨](https://github.com/AlfieriChou/news/blob/master/markdown/commodity/praseodymium.md)
+- [neodymium-金属钕](https://github.com/AlfieriChou/news/blob/master/markdown/commodity/neodymium.md)
+- [neodymiumOxide-氧化钕](https://github.com/AlfieriChou/news/blob/master/markdown/commodity/neodymiumOxide.md)
+- [praseodymiumNeodymiumOxide-镨钕氧化物](https://github.com/AlfieriChou/news/blob/master/markdown/commodity/praseodymiumNeodymiumOxide.md)
+- [dyFeAlloy-镝铁合金](https://github.com/AlfieriChou/news/blob/master/markdown/commodity/dyFeAlloy.md)
 
 ## stock
 

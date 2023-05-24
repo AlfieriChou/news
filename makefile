@@ -11,11 +11,11 @@ koala:
 	git push origin master
 
 commodity-monitor:
-	node scripts/dyFeAlloyMonitor.js
-	node scripts/neodymiumMonitor.js
-	node scripts/neodymiumOxideMonitor.js
-	node scripts/praseodymiumMonitor.js
-	node scripts/praseodymiumNeodymiumOxideMonitor.js
+	node scripts/commodity/dyFeAlloyMonitor.js
+	node scripts/commodity/neodymiumMonitor.js
+	node scripts/commodity/neodymiumOxideMonitor.js
+	node scripts/commodity/praseodymiumMonitor.js
+	node scripts/commodity/praseodymiumNeodymiumOxideMonitor.js
 	git add .
 	git commit -m 'chore: sync commodity monitor'
 	git push origin master

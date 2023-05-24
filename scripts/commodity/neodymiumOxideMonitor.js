@@ -36,7 +36,7 @@ const start = async () => {
     ...await getList(3)
   ]
   let existList = []
-  const filePath = path.resolve(__dirname, '../json/neodymiumOxide.json')
+  const filePath = path.resolve(__dirname, '../json/commodity/neodymiumOxide.json')
   if (fs.existsSync(filePath)) {
     existList = require(filePath)
     list.forEach(item => {
@@ -60,7 +60,7 @@ const start = async () => {
   existList.forEach((item) => {
     mdList.push(`|${item.dateStr}|${item.price}|${item.message}|`)
   })
-  fs.writeFileSync('./markdown/neodymiumOxide.md', mdList.join('\n'))
+  fs.writeFileSync('./markdown/commodity/neodymiumOxide.md', mdList.join('\n'))
   logger.info('write file done')
 }
 
