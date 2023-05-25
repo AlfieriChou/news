@@ -6,65 +6,76 @@ const { sleep } = require('@galenjs/factories/sleep')
 
 const logger = console
 const url = 'http://www.100ppi.com/kx/'
-const commodityList = [{
-  code: '976',
-  name: '金属镨',
-  filename: 'praseodymium'
-}, {
-  code: '977',
-  name: '金属钕',
-  filename: 'neodymium'
-}, {
-  code: '978',
-  name: '金属镝',
-  filename: 'dysprosiumMetal'
-}, {
-  code: '979',
-  name: '氧化钕',
-  filename: 'neodymiumOxide'
-}, {
-  code: '980',
-  name: '氧化镨',
-  filename: 'praseodymiumOxide'
-}, {
-  code: '981',
-  name: '氧化镝',
-  filename: 'dysprosiumOxide'
-}, {
-  code: '982',
-  name: '镨钕合金',
-  filename: 'praseodymiumNeodymiumAlloy'
-}, {
-  code: '984',
-  name: '镝铁合金',
-  filename: 'dyFeAlloy'
-}, {
-  code: '1275',
-  name: '碳酸锂',
-  filename: 'lithium'
-}, {
-  code: '1399',
-  name: '氢氧化锂',
-  filename: 'lithiumHydroxide'
-}, {
-  code: '1401',
-  name: '磷酸铁锂',
-  filename: 'lithiumIronPhosphate'
-}, {
-  code: '1454',
-  name: '镨钕氧化物',
-  filename: 'praseodymiumNeodymiumOxide'
-}]
+const commodityList = [
+  {
+    code: '976',
+    name: '金属镨',
+    filename: 'praseodymium'
+  },
+  {
+    code: '977',
+    name: '金属钕',
+    filename: 'neodymium'
+  },
+  {
+    code: '978',
+    name: '金属镝',
+    filename: 'dysprosiumMetal'
+  },
+  {
+    code: '979',
+    name: '氧化钕',
+    filename: 'neodymiumOxide'
+  },
+  {
+    code: '980',
+    name: '氧化镨',
+    filename: 'praseodymiumOxide'
+  },
+  {
+    code: '981',
+    name: '氧化镝',
+    filename: 'dysprosiumOxide'
+  },
+  {
+    code: '982',
+    name: '镨钕合金',
+    filename: 'praseodymiumNeodymiumAlloy'
+  },
+  {
+    code: '984',
+    name: '镝铁合金',
+    filename: 'dyFeAlloy'
+  },
+  // {
+  //   code: "1275",
+  //   name: "碳酸锂",
+  //   filename: "lithium",
+  // },
+  {
+    code: '1399',
+    name: '氢氧化锂',
+    filename: 'lithiumHydroxide'
+  },
+  {
+    code: '1401',
+    name: '磷酸铁锂',
+    filename: 'lithiumIronPhosphate'
+  },
+  {
+    code: '1454',
+    name: '镨钕氧化物',
+    filename: 'praseodymiumNeodymiumOxide'
+  }
+]
 
-const getList = async ({
-  page, code, name
-}) => {
+const getList = async ({ page, code, name }) => {
   const infoUrl = `${url}detail-message-${code}--${page}.html`
   const infoRet = await got(infoUrl)
   const list = infoRet.body
     .split('\r\n')
-    .filter(item => item.includes(`[${name}]`))
-    .map(item => {
+    .filter((item) => item.includes(`[${name}]`))
+    .map((item) => {
       const [, content] = item.split(`[${name}]`)
       const [message, dateStrSpan] = content.split(' <span>')
       const [dateStr, price] = message.split(`${name}为`)
@@ -81,32 +92,30 @@ const getList = async ({
   return list
 }
 
-const syncCommodityData = async ({
-  code, name, filename
-}) => {
+const syncCommodityData = async ({ code, name, filename }) => {
   const list = [
-    ...await getList({
+    ...(await getList({
       page: 1,
       code,
       name
-    }),
-    ...await getList({
+    })),
+    ...(await getList({
       page: 2,
       code,
       name
-    }),
-    ...await getList({
+    })),
+    ...(await getList({
       page: 3,
       code,
       name
-    })
+    }))
   ]
   let existList = []
   const filePath = path.join(process.cwd(), `/json/commodity/${filename}.json`)
   if (fs.existsSync(filePath)) {
     existList = require(filePath)
-    list.forEach(item => {
-      const exist = existList.find(i => i.id === item.id)
+    list.forEach((item) => {
+      const exist = existList.find((i) => i.id === item.id)
       if (!exist) {
         existList.push(item)
       }
@@ -117,7 +126,11 @@ const syncCommodityData = async ({
   logger.info(`${filename} list`, list.length)
   fs.writeFileSync(
     filePath,
-    JSON.stringify(existList.sort((a, b) => b.date - a.date), null, 2)
+    JSON.stringify(
+      existList.sort((a, b) => b.date - a.date),
+      null,
+      2
+    )
   )
   const mdList = []
   mdList.push(`# ${name}价格变动趋势 \n`)
@@ -126,7 +139,10 @@ const syncCommodityData = async ({
   existList.forEach((item) => {
     mdList.push(`|${item.dateStr}|${item.price}|${item.message}|`)
   })
-  const markdownFilePath = path.join(process.cwd(), `/markdown/commodity/${filename}.md`)
+  const markdownFilePath = path.join(
+    process.cwd(),
+    `/markdown/commodity/${filename}.md`
+  )
   fs.writeFileSync(markdownFilePath, mdList.join('\n'))
   logger.info(`write ${filename} file done`)
 }
