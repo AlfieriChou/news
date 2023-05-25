@@ -3,6 +3,7 @@ const path = require('path')
 const got = require('got')
 const { hash } = require('@galenjs/factories/crypto')
 const { sleep } = require('@galenjs/factories/sleep')
+const ChartJsImage = require('chartjs-to-image')
 
 const logger = console
 const url = 'http://www.100ppi.com/kx/'
@@ -79,6 +80,32 @@ const commodityList = [
   }
 ]
 
+const generateLineChartImg = async ({
+  name, filename, xList, yList
+}) => {
+  const chart = new ChartJsImage()
+  chart
+    .setConfig({
+      type: 'line',
+      data: {
+        labels: xList,
+        datasets: [
+          {
+            fillColor: 'rgba(220,220,220,0.5)',
+            strokeColor: 'rgba(220,220,220,1)',
+            pointColor: 'rgba(220,220,220,1)',
+            pointStrokeColor: '#fff',
+            data: yList,
+            label: name
+          }
+        ]
+      }
+    })
+    .setWidth(3000)
+    .setHeight(400)
+    .toFile(filename)
+}
+
 const getList = async ({ page, code, name }) => {
   const infoUrl = `${url}detail-message-${code}--${page}.html`
   const infoRet = await got(infoUrl)
@@ -142,6 +169,17 @@ const syncCommodityData = async ({ code, name, filename }) => {
       2
     )
   )
+  if (code !== '45') {
+    logger.info(`generate ${filename} line chart start`)
+    const chartList = list.sort((a, b) => a.date - b.date)
+    await generateLineChartImg({
+      name,
+      filename: path.join(process.cwd(), `img/${filename}.png`),
+      xList: chartList.map(i => i.dateStr),
+      yList: chartList.map(i => i.price)
+    })
+    logger.info(`generate ${filename} line chart done`)
+  }
   const mdList = []
   mdList.push(`# ${name}价格变动趋势 \n`)
   mdList.push('| 时间 | 价格 | 消息正文 |')

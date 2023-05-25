@@ -15,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "@galenjs/factories": "^1.4.0",
+    "chartjs-to-image": "^1.2.1",
     "date-fns": "^2.30.0",
     "got": "11",
     "shortid": "^2.2.16"

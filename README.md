@@ -10,6 +10,9 @@ news scribe
 ### tombarthite-稀土
 
 - [praseodymium-金属镨](https://github.com/AlfieriChou/news/blob/master/markdown/commodity/praseodymium.md)
+
+![praseodymium-金属镨](img/praseodymium.png)
+
 - [neodymium-金属钕](https://github.com/AlfieriChou/news/blob/master/markdown/commodity/neodymium.md)
 - [dysprosiumMetal-金属镝](https://github.com/AlfieriChou/news/blob/master/markdown/commodity/dysprosiumMetal.md)
 - [neodymiumOxide-氧化钕](https://github.com/AlfieriChou/news/blob/master/markdown/commodity/neodymiumOxide.md)
