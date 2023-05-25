@@ -8,6 +8,16 @@ const logger = console
 const url = 'http://www.100ppi.com/kx/'
 const commodityList = [
   {
+    code: '45',
+    name: '原油',
+    filename: 'crudeOil'
+  },
+  {
+    code: '47',
+    name: '液化天然气',
+    filename: 'liquefiedNaturalGas'
+  },
+  {
     code: '976',
     name: '金属镨',
     filename: 'praseodymium'
