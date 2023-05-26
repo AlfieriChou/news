@@ -1,5 +1,11 @@
 # 镨钕合金价格变动趋势 
 
+
+
+![praseodymiumNeodymiumAlloy-镨钕合金](../../img/praseodymiumNeodymiumAlloy.png)
+
+
+
 | 时间 | 价格 | 消息正文 |
 |:--:|:--:|:--:|
 |2023年5月25日|577500|5月25日镨钕合金为577500.00|

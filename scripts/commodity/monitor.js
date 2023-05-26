@@ -169,6 +169,8 @@ const syncCommodityData = async ({ code, name, filename }) => {
       2
     )
   )
+  const mdList = []
+  mdList.push(`# ${name}价格变动趋势 \n`)
   if (code !== '45') {
     logger.info(`generate ${filename} line chart start`)
     const chartList = list.sort((a, b) => a.date - b.date)
@@ -179,9 +181,10 @@ const syncCommodityData = async ({ code, name, filename }) => {
       yList: chartList.map(i => i.price)
     })
     logger.info(`generate ${filename} line chart done`)
+    mdList.push('\n')
+    mdList.push(`![${filename}-${name}](../../img/${filename}.png)\n`)
+    mdList.push('\n')
   }
-  const mdList = []
-  mdList.push(`# ${name}价格变动趋势 \n`)
   mdList.push('| 时间 | 价格 | 消息正文 |')
   mdList.push('|:--:|:--:|:--:|')
   existList.forEach((item) => {

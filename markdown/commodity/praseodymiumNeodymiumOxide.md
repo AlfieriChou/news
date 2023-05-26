@@ -1,5 +1,11 @@
 # 镨钕氧化物价格变动趋势 
 
+
+
+![praseodymiumNeodymiumOxide-镨钕氧化物](../../img/praseodymiumNeodymiumOxide.png)
+
+
+
 | 时间 | 价格 | 消息正文 |
 |:--:|:--:|:--:|
 |2023年5月25日|482500|5月25日镨钕氧化物为482500.00|
