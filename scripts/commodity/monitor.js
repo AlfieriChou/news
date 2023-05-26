@@ -102,7 +102,7 @@ const generateLineChartImg = async ({
       }
     })
     .setWidth(3000)
-    .setHeight(400)
+    .setHeight(1000)
     .toFile(filename)
 }
 
@@ -201,7 +201,7 @@ const start = async () => {
   await commodityList.reduce(async (promise, data) => {
     await promise
     await syncCommodityData(data)
-    await sleep(Math.floor(Math.random() * (5000 - 3000) + 3000))
+    await sleep(Math.floor(Math.random() * (20000 - 10000) + 10000))
   }, Promise.resolve())
   logger.info('sync commodity done', Date.now() - startedAt)
 }
