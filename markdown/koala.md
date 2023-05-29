@@ -1,5 +1,22 @@
 # koala hacker news 
 
+## 第75期 
+
+### [Hacker News 周报] 微软开源 IoT 设备开发框架；Windows 11 集成 AI Copilot；Paypal 自研 NoSQL 数据库开源； 
+
+- [视频链接](https://www.bilibili.com/video/av741704043) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|DeviceScript｜微软开源IoT设备开发框架| |
+|00:41|ls-lint｜基于Go的文件目录与文件名lint工具| |
+|01:04|DB-GPT｜SQLChat的开源替代品| |
+|01:34|progress｜查看Linux命令执行进度| |
+|02:02|Paypal开源数据库JunoDB并发表介绍博客| |
+|02:23|本周AI小结| |
+|Bgm｜|ItsFunBeingaCatbyZivGrinberg| |
+
+
 ## 第74期 
 
 ### [Hacker News 周报] 低代码 + serverless = ?；WebAssembly 性能分析工具；AI 一周概述 
