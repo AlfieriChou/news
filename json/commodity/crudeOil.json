@@ -1,5 +1,21 @@
 [
   {
+    "id": "79c2ea65e17d5a3ffe3b0e094c8a7f76",
+    "dateStr": "2023年5月30日Brent",
+    "date": 1685376000000,
+    "message": "5月30日Brent原油为77.10",
+    "name": "原油",
+    "price": 77.1
+  },
+  {
+    "id": "3f0383effa66f8555cd773da96aa08e4",
+    "dateStr": "2023年5月30日WTI",
+    "date": 1685376000000,
+    "message": "5月30日WTI原油为72.67",
+    "name": "原油",
+    "price": 72.67
+  },
+  {
     "id": "a03e814659a3ee8d52346450561f3002",
     "dateStr": "2023年5月29日Brent",
     "date": 1685289600000,
