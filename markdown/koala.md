@@ -1,5 +1,22 @@
 # koala hacker news 
 
+## 第76期 
+
+### [Hacker News 周报] 面向机器学习设计的列式数据结构；开源 Jira 替代品；Nvidia 万亿市值 
+
+- [视频链接](https://www.bilibili.com/video/av741985027) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|Lance｜面向机器学习设计的列式数据结构|https://github.com/lancedb/lance|
+|00:42|Trogan｜Textualize社区的新项目|https://github.com/Textualize/trogon|
+|01:16|Plane｜开源Jira替代品|https://github.com/makeplane/plane|
+|01:49|CSSPro｜CSS编辑解决方案|https://csspro.com/ |
+|02:23|Logicboard｜一个在线编程工具|https://logicboard.com/demo 以及 https://logicboard.com/demo/:replay |
+|02:42|AI小结|AI 小结：|
+|Bgm｜|WaltzSentimentalbyAmosEverHadani|https://www.tii.ae/news/uaes-falcon-40b-now-royalty-free |
+
+
 ## 第75期 
 
 ### [Hacker News 周报] 微软开源 IoT 设备开发框架；Windows 11 集成 AI Copilot；Paypal 自研 NoSQL 数据库开源； 
