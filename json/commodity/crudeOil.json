@@ -1,5 +1,21 @@
 [
   {
+    "id": "445af422a8d6ae4054dcb49514bcf27f",
+    "dateStr": "2023年6月7日Brent",
+    "date": 1686067200000,
+    "message": "6月7日Brent原油为76.29",
+    "name": "原油",
+    "price": 76.29
+  },
+  {
+    "id": "8af39082329b672d0e542c61f946c45e",
+    "dateStr": "2023年6月7日WTI",
+    "date": 1686067200000,
+    "message": "6月7日WTI原油为71.74",
+    "name": "原油",
+    "price": 71.74
+  },
+  {
     "id": "2064f8dc54b01ca66e42e7c33efd8f10",
     "dateStr": "2023年6月6日WTI",
     "date": 1685980800000,
