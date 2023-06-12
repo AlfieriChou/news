@@ -1,5 +1,22 @@
 # koala hacker news 
 
+## 第77期 
+
+### [Hacker News 周报] Jupyter notebook 快速变为 web app；文字生成 3D 人物；AI 探索更快排序算法 
+
+- [视频链接](https://www.bilibili.com/video/av402219859) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|Mercury｜Jupyternotebook快速变为webapp|https://runmercury.com/|
+|00:39|Autocomplete｜Algolia开源前端UI组件|https://github.com/algolia/autocomplete|
+|01:00|polywasm｜前FigmaCTO、esbuild发起者开源的新研究项目|https://github.com/evanw/polywasm|
+|01:33|Dufs｜一个轻量级文件服务器|https://github.com/sigoden/dufs|
+|01:56|Apple发布头显设备AppleVisionPro|https://www.apple.com/newsroom/2023/06/introducing-apple-vision-pro |
+|02:12|一周AI小结||
+|Bgm｜ANBR|-LearntoFly|本周AI 小结|
+
+
 ## 第76期 
 
 ### [Hacker News 周报] 面向机器学习设计的列式数据结构；开源 Jira 替代品；Nvidia 万亿市值 
