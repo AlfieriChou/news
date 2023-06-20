@@ -1,5 +1,22 @@
 # koala hacker news 
 
+## 第78期 
+
+### [Hacker News 周报] 轻量级可观测性工具；云原生流处理引擎；llama.cpp 优化 GPU 加速 
+
+- [视频链接](https://www.bilibili.com/video/av487482397) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:10|OpenObserve｜轻量级可观测性工具|https://github.com/openobserve/openobserve|
+|00:43|Arroyo｜云原生流处理引擎|https://www.arroyo.dev/|
+|01:14|Kera｜基于Web的桌面端扩展框架|https://desktop.kerahq.com/|
+|01:34|SeaweedFS｜分布式文件系统|https://github.com/seaweedfs/seaweedfs|
+|02:03|codespelunker｜命令行代码搜索工具|https://github.com/boyter/cs|
+|02:24|本周AI小结|本周AI 小结|
+|Bgm｜Moonlight|WaltzbyJonasKolberg|https://github.com/ggerganov/llama.cpp/pull/1827|
+
+
 ## 第77期 
 
 ### [Hacker News 周报] Jupyter notebook 快速变为 web app；文字生成 3D 人物；AI 探索更快排序算法 
