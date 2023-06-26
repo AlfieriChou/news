@@ -59,3 +59,4 @@ news scribe
 ## stock
 
 - [unlock stock](https://github.com/AlfieriChou/news/blob/master/markdown/unlockStock)
+- [bill melinda gates foundation trust](https://github.com/AlfieriChou/news/blob/master/markdown/billMelindaGatesFoundationTrust)
