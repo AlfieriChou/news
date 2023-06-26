@@ -24,3 +24,10 @@ unlock-stock:
 	git add .
 	git commit -m 'chore: sync unlock stock list'
 	git push origin master
+
+bill-melinda-gates:
+	git pull origin master
+	node scripts/billMelindaGatesFoundationTrust.js
+	git add .
+	git commit -m 'chore: sync bill & melinda gates foundation trust list'
+	git push origin master

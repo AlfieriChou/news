@@ -1,4 +1,8 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 dependencies:
   '@galenjs/factories':
@@ -13,6 +17,9 @@ dependencies:
   got:
     specifier: '11'
     version: 11.8.5
+  lodash:
+    specifier: ^4.17.21
+    version: 4.17.21
   shortid:
     specifier: ^2.2.16
     version: 2.2.16

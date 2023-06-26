@@ -18,6 +18,7 @@
     "chartjs-to-image": "^1.2.1",
     "date-fns": "^2.30.0",
     "got": "11",
+    "lodash": "^4.17.21",
     "shortid": "^2.2.16"
   },
   "devDependencies": {
