@@ -72,7 +72,7 @@ const start = async () => {
     mdList.push(`${key}\n`)
     mdList.push('| 标的代码 | 标的名称 | 持仓数 | 报告期 | 持股变动 | 股东类型 | 流通市值 |')
     mdList.push('|:--:|:--:|:--:|:--:|:--:|:--:|:--:|')
-    values.forEach((value) => {
+    _.uniqBy(values, 'securityCode').forEach((value) => {
       mdList.push(
         `|${
           value.securityCode
