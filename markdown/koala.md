@@ -1,5 +1,22 @@
 # koala hacker news 
 
+## 第79期 
+
+### [Hacker News 周报]  Vercel AI SDK 发布；开源 codespaces 替代品；UI 原型工具创新 
+
+- [视频链接](https://www.bilibili.com/video/av402729235) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:10|DevPod｜开源codespaces替代品|https://devpod.sh/|
+|00:37|SketchSystems｜UI原型工具创新|https://sketch.systems/|
+|01:06|GoAWK｜Go的AWK语言解释器|https://benhoyt.com/writings/goawk/  |
+|01:24|Selecto.js｜一个区域选择的UI组件|https://daybrush.com/selecto/  和  https://github.com/daybrush |
+|01:49|Svelte发布了v4版本|https://svelte.dev/blog/svelte-4 |
+|02:11|本周AI小结|一周 AI 小结：|
+|Bgm｜|CloudbyArdieSon|https://vercel.com/blog/introducing-the-vercel-ai-sdk  |
+
+
 ## 第78期 
 
 ### [Hacker News 周报] 轻量级可观测性工具；云原生流处理引擎；llama.cpp 优化 GPU 加速 
