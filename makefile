@@ -38,3 +38,10 @@ morganStanley:
 	git add .
 	git commit -m 'chore: sync morgan stanley list'
 	git push origin master
+
+kuwaitInvestment:
+	git pull origin master
+	node scripts/kuwaitInvestment.js
+	git add .
+	git commit -m 'chore: sync kuwait investment list'
+	git push origin master

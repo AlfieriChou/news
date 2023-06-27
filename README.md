@@ -11,6 +11,7 @@ news scribe
 - [unlock stock](https://github.com/AlfieriChou/news/blob/master/markdown/unlockStock)
 - [bill melinda gates foundation trust](https://github.com/AlfieriChou/news/blob/master/markdown/billMelindaGatesFoundationTrust)
 - [morgan stanley](https://github.com/AlfieriChou/news/blob/master/markdown/morganStanley)
+- [kuwait investment](https://github.com/AlfieriChou/news/blob/master/markdown/kuwaitInvestment)
 
 ## commodity-monitor
 
