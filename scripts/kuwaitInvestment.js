@@ -30,7 +30,7 @@ const getList = async ({
     source: 'WEB',
     client: 'WEB',
     filter: '(HOLDER_NEW="10199707")(END_DATE>=\'2015-03-31\')',
-    reportName: 'RPT_F10_EH_FREEHOLDERS'
+    reportName: 'RPT_CUSTOM_F10_EH_FREEHOLDERS_JOIN_FREEHOLDER_SHAREANALYSIS'
   })
   logger.info('kuwaitInvestment', startDate, endDate, page, JSON.stringify(ret))
   if (ret.code === 0) {
