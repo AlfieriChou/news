@@ -93,6 +93,7 @@ const start = async () => {
     })
     const [{ endDate }] = values
     const filename = `${endDate.slice(0, 10).split('-').join('')}-${key}`
+    fs.writeFileSync(`./json/morganStanley/${filename}.json`, JSON.stringify(values, null, 2))
     fs.writeFileSync(`./markdown/morganStanley/${filename}.md`, mdList.join('\n'))
   })
   logger.info('write file done')
