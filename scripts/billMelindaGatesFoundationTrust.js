@@ -25,7 +25,7 @@ const getList = async ({
     sortColumns: 'UPDATE_DATE,END_DATE,SECURITY_CODE',
     sortTypes: '-1,-1,-1',
     pageSize: 50,
-    pageNumber: 1,
+    pageNumber: page,
     columns: 'ALL;D10_ADJCHRATE,D30_ADJCHRATE,D60_ADJCHRATE',
     source: 'WEB',
     client: 'WEB',
@@ -65,14 +65,14 @@ const start = async () => {
     filePath,
     JSON.stringify(list, null, 2)
   )
-  const groupByList = _.groupBy(list, x => `${x.endDate.slice(0, 10).split('-').join('')}-${x.reportDateName}`)
+  const groupByList = _.groupBy(list, 'reportDateName')
   Object.entries(groupByList).forEach(([key, values]) => {
     const mdList = []
     mdList.push('# 报表周期 \n')
     mdList.push(`${key}\n`)
     mdList.push('| 标的代码 | 标的名称 | 持仓数 | 报告期 | 持股变动 | 股东类型 | 流通市值 |')
     mdList.push('|:--:|:--:|:--:|:--:|:--:|:--:|:--:|')
-    _.uniqBy(values, 'securityCode').forEach((value) => {
+    values.forEach((value) => {
       mdList.push(
         `|${
           value.securityCode
@@ -91,7 +91,9 @@ const start = async () => {
         }|`
       )
     })
-    fs.writeFileSync(`./markdown/billMelindaGatesFoundationTrust/${key}.md`, mdList.join('\n'))
+    const [{ endDate }] = values
+    const filename = `${endDate.slice(0, 10).split('-').join('')}-${key}`
+    fs.writeFileSync(`./markdown/billMelindaGatesFoundationTrust/${filename}.md`, mdList.join('\n'))
   })
   logger.info('write file done')
 }
