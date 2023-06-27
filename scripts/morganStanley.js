@@ -68,8 +68,11 @@ const start = async () => {
   const groupByList = _.groupBy(list, 'reportDateName')
   Object.entries(groupByList).forEach(([key, values]) => {
     const mdList = []
+
     mdList.push('# 报表周期 \n')
     mdList.push(`${key}\n`)
+
+    // 操作变动
     mdList.push('| 标的代码 | 标的名称 | 持仓数 | 报告期 | 持股变动 | 股东类型 | 流通市值 |')
     mdList.push('|:--:|:--:|:--:|:--:|:--:|:--:|:--:|')
     values.forEach((value) => {
@@ -91,6 +94,27 @@ const start = async () => {
         }|`
       )
     })
+
+    // 增减持
+    // TODO: 加上行业分析
+    mdList.push('\n')
+    Object.entries(_.groupBy(values, 'holdnumChangeName'))
+      .forEach(([operateName, operateValues]) => {
+        mdList.push(`## ${operateName} \n`)
+        mdList.push('| 标的代码 | 标的名称 |')
+        mdList.push('|:--:|:--:|')
+        operateValues.forEach((value) => {
+          mdList.push(
+            `|${
+              value.securityCode
+            }|${
+              value.securityNameAbbr
+            }|`
+          )
+        })
+        mdList.push('\n')
+      })
+
     const [{ endDate }] = values
     const filename = `${endDate.slice(0, 10).split('-').join('')}-${key}`
     fs.writeFileSync(`./json/morganStanley/${filename}.json`, JSON.stringify(values, null, 2))
