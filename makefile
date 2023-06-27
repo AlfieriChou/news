@@ -31,3 +31,10 @@ bill-melinda-gates:
 	git add .
 	git commit -m 'chore: sync bill & melinda gates foundation trust list'
 	git push origin master
+
+morganStanley:
+	git pull origin master
+	node scripts/morganStanley.js
+	git add .
+	git commit -m 'chore: sync morgan stanley list'
+	git push origin master

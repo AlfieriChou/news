@@ -6,6 +6,12 @@ news scribe
 
 - [koala](https://github.com/AlfieriChou/news/blob/master/markdown/koala.md)
 
+## stock
+
+- [unlock stock](https://github.com/AlfieriChou/news/blob/master/markdown/unlockStock)
+- [bill melinda gates foundation trust](https://github.com/AlfieriChou/news/blob/master/markdown/billMelindaGatesFoundationTrust)
+- [morgan stanley](https://github.com/AlfieriChou/news/blob/master/markdown/morganStanley)
+
 ## commodity-monitor
 
 ### tombarthite-稀土
@@ -55,8 +61,3 @@ news scribe
 - [lithiumIronPhosphate-磷酸铁锂](https://github.com/AlfieriChou/news/blob/master/markdown/commodity/lithiumIronPhosphate.md)
 
 ![lithiumIronPhosphate-磷酸铁锂](img/lithiumIronPhosphate.png)
-
-## stock
-
-- [unlock stock](https://github.com/AlfieriChou/news/blob/master/markdown/unlockStock)
-- [bill melinda gates foundation trust](https://github.com/AlfieriChou/news/blob/master/markdown/billMelindaGatesFoundationTrust)
