@@ -71,7 +71,7 @@ const start = async () => {
   mdList.push('| 标的代码 | 标的名称 | 解禁时间 | 限售股类型 | 解禁数量（股） | 实际解禁数量（股） | 占解禁前流通市值比例(%) |')
   mdList.push('|:--:|:--:|:--:|:--:|:--:|:--:|:--:|')
   list.forEach((item) => {
-    mdList.push(`|${item.securityCode}|${item.securityNameAbbr}|${item.freeDate}|${item.freeSharesType}|${item.ableFreeShares}万|${item.currentFreeShares}万|${(item.freeRatio * 100).toFixed(2)}|`)
+    mdList.push(`|${item.securityCode}|${item.securityNameAbbr}|${item.freeDate.slice(0, 10)}|${item.freeSharesType}|${item.ableFreeShares}万|${item.currentFreeShares}万|${(item.freeRatio * 100).toFixed(2)}|`)
   })
   fs.writeFileSync(`./markdown/unlockStock/${startDate}_${endDate}.md`, mdList.join('\n'))
   logger.info('write file done')
