@@ -1,5 +1,22 @@
 # koala hacker news 
 
+## 第80期 
+
+### [Hacker News 周报] 更快的 Segment Anything；轻量级数据库缓存；更好的 React 开发框架 
+
+- [视频链接](https://www.bilibili.com/video/av912910501) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|Tabserve｜一个反向代理工具|https://tabserve.dev/|
+|00:49|ReadySet｜轻量级数据库缓存|https://github.com/readysettech/readyset|
+|01:32|Refine｜更好的React开发框架|https://github.com/refinedev/refine|
+|02:05|1-Panel｜开源Linux服务器运维管理面板|https://github.com/1Panel-dev/1Panel|
+|02:29|在Go程序中实现插件系统|https://www.youtube.com/watch?v=pRT36VqpljA |
+|02:47|本周AI小结|一周 AI 小结： |
+|Bgm｜|DreamingAboutSummerbyRotemCinamon|https://about.sourcegraph.com/cody |
+
+
 ## 第79期 
 
 ### [Hacker News 周报]  Vercel AI SDK 发布；开源 codespaces 替代品；UI 原型工具创新 
