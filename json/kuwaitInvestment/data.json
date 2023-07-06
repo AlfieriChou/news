@@ -1702,7 +1702,7 @@
     "holderCodeOld": "80195934",
     "holderNewtype": "QFII",
     "holdnumChangeName": "新进",
-    "isMaxReportdate": "1",
+    "isMaxReportdate": "0",
     "cooperationHolderMark": "10199707",
     "mxid": "a0abecf1d0c16cacdffa1eb6093336c7",
     "listingState": "0",
@@ -16943,7 +16943,7 @@
     "isMaxReportdate": "0",
     "cooperationHolderMark": "10199707",
     "mxid": "388eb276f08123656c284876ae10ad26",
-    "listingState": "0",
+    "listingState": "2",
     "xzchange": 1052981,
     "newChangeRatio": "24.78535449"
   },
@@ -17855,7 +17855,7 @@
     "isMaxReportdate": "0",
     "cooperationHolderMark": "10199707",
     "mxid": "06c751b2edc8049880081e0c293f0994",
-    "listingState": "0",
+    "listingState": "2",
     "xzchange": null,
     "newChangeRatio": "新进"
   },
