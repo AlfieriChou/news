@@ -1,5 +1,21 @@
 # koala hacker news 
 
+## 第81期 
+
+### [Hacker News 周报] 22000 张 GPU 组成超级电脑；通用协同编辑器；高性能列式存储引擎 
+
+- [视频链接](https://www.bilibili.com/video/av573242140) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:10|Watermill｜Go的事件驱动开发框架|https://github.com/ThreeDotsLabs/watermill|
+|00:34|BlockSuite｜通用协同编辑器|https://blocksuite.affine.pro/|
+|01:06|Columnar｜高性能列式存储引擎|https://github.com/kelindar/column|
+|01:32|Kine｜使用SQL数据库运行k8s|https://github.com/k3s-io/kine|
+|02:00|基于Three.js的3D解密小游戏|https://www.thomasfriday.com/cuboid/ |
+|02:11|一周AI小结|一周 AI 小结：|
+
+
 ## 第80期 
 
 ### [Hacker News 周报] 更快的 Segment Anything；轻量级数据库缓存；更好的 React 开发框架 
