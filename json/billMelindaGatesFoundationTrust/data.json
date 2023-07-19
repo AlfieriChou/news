@@ -1,5 +1,46 @@
 [
   {
+    "secucode": "002648.SZ",
+    "securityCode": "002648",
+    "orgCode": "10192862",
+    "endDate": "2023-06-30 00:00:00",
+    "holderName": "BILL & MELINDA GATES FOUNDATION TRUST",
+    "holdNum": 31814480,
+    "freeHoldnumRatio": 0.945393833605,
+    "holdNumChange": "不变",
+    "changeRatio": null,
+    "isHoldorg": "1",
+    "holderRank": 8,
+    "securityNameAbbr": "卫星化学",
+    "holderCode": "10054004",
+    "securityTypeCode": "058001001",
+    "holderState": null,
+    "holderMarketCap": 475944620.8,
+    "holdRatio": 0.9444,
+    "holdChange": "不变",
+    "holdRatioChange": 0.0001,
+    "holderType": "QFII",
+    "sharesType": "A股",
+    "updateDate": "2023-07-18 00:00:00",
+    "reportDateName": "2023中报",
+    "holderNew": "10054004",
+    "freeRatioQoq": "-0.05905149",
+    "holderStatee": null,
+    "isReport": "1",
+    "holderCodeOld": "80055525",
+    "holderNewtype": "QFII",
+    "holdnumChangeName": "不变",
+    "isMaxReportdate": "1",
+    "cooperationHolderMark": "10054004",
+    "mxid": "f954d5239d2be39d70fc8116e396ee7d",
+    "listingState": "0",
+    "xzchange": 0,
+    "newChangeRatio": "不变",
+    "d10Adjchrate": 0,
+    "d30Adjchrate": 0,
+    "d60Adjchrate": 0
+  },
+  {
     "secucode": "603733.SH",
     "securityCode": "603733",
     "orgCode": "10133392",
@@ -38,7 +79,7 @@
     "newChangeRatio": "不变",
     "d10Adjchrate": 3.13531353,
     "d30Adjchrate": -8.82838284,
-    "d60Adjchrate": -13.23787604
+    "d60Adjchrate": -11.18705883
   },
   {
     "secucode": "002648.SZ",
@@ -71,7 +112,7 @@
     "holderCodeOld": "80055525",
     "holderNewtype": "QFII",
     "holdnumChangeName": "不变",
-    "isMaxReportdate": "1",
+    "isMaxReportdate": "0",
     "cooperationHolderMark": "10054004",
     "mxid": "25f9550ad3766ff8f0cec1aea95c88f1",
     "listingState": "0",
@@ -79,7 +120,7 @@
     "newChangeRatio": "不变",
     "d10Adjchrate": -4.01691332,
     "d30Adjchrate": 0,
-    "d60Adjchrate": 14.37632135
+    "d60Adjchrate": 12.05073996
   },
   {
     "secucode": "000786.SZ",
@@ -120,7 +161,7 @@
     "newChangeRatio": "4.52875216",
     "d10Adjchrate": -4.93966817,
     "d30Adjchrate": -2.65092757,
-    "d60Adjchrate": -7.3732285
+    "d60Adjchrate": -6.25071434
   },
   {
     "secucode": "002648.SZ",
@@ -161,7 +202,7 @@
     "newChangeRatio": "0.443264016234955",
     "d10Adjchrate": -4.01691332,
     "d30Adjchrate": 0,
-    "d60Adjchrate": 14.37632135
+    "d60Adjchrate": 12.05073996
   },
   {
     "secucode": "002472.SZ",
@@ -202,7 +243,7 @@
     "newChangeRatio": "新进",
     "d10Adjchrate": -2.96080067,
     "d30Adjchrate": -0.59069476,
-    "d60Adjchrate": 33.88458618
+    "d60Adjchrate": 34.30297552
   },
   {
     "secucode": "002080.SZ",
@@ -243,7 +284,7 @@
     "newChangeRatio": "不变",
     "d10Adjchrate": -4.61469534,
     "d30Adjchrate": -6.91938218,
-    "d60Adjchrate": -5.57575952
+    "d60Adjchrate": -5.66842316
   },
   {
     "secucode": "300748.SZ",
