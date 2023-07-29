@@ -36,9 +36,9 @@
     "listingState": "0",
     "xzchange": 0,
     "newChangeRatio": "不变",
-    "d10Adjchrate": -0.94339623,
-    "d30Adjchrate": -0.94339623,
-    "d60Adjchrate": -0.94339623
+    "d10Adjchrate": 1.63522013,
+    "d30Adjchrate": 1.63522013,
+    "d60Adjchrate": 1.63522013
   },
   {
     "secucode": "603733.SH",
@@ -79,7 +79,7 @@
     "newChangeRatio": "不变",
     "d10Adjchrate": 3.13531353,
     "d30Adjchrate": -8.82838284,
-    "d60Adjchrate": -9.59662915
+    "d60Adjchrate": -6.29020957
   },
   {
     "secucode": "002648.SZ",
@@ -120,7 +120,7 @@
     "newChangeRatio": "不变",
     "d10Adjchrate": -4.01691332,
     "d30Adjchrate": 0,
-    "d60Adjchrate": 10.99365751
+    "d60Adjchrate": 13.46018323
   },
   {
     "secucode": "000786.SZ",
@@ -161,7 +161,7 @@
     "newChangeRatio": "4.52875216",
     "d10Adjchrate": -4.93966817,
     "d30Adjchrate": -2.65092757,
-    "d60Adjchrate": -0.71555833
+    "d60Adjchrate": 4.97442721
   },
   {
     "secucode": "002648.SZ",
@@ -202,7 +202,7 @@
     "newChangeRatio": "0.443264016234955",
     "d10Adjchrate": -4.01691332,
     "d30Adjchrate": 0,
-    "d60Adjchrate": 10.99365751
+    "d60Adjchrate": 13.46018323
   },
   {
     "secucode": "002472.SZ",
