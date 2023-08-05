@@ -1,5 +1,39 @@
 # koala hacker news 
 
+## 第84期 
+
+### [Hacker News 周报] 面向边缘场景设计的 Web 框架；功能更强的 PostgresSQL 池化工具；GitHub Copilot 开源竞品 
+
+- [视频链接](https://www.bilibili.com/video/av446594335) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|Vegeta｜HTTPAPI性能测试工具|https://github.com/tsenart/vegeta|
+|00:36|PgCat｜PostgreSQL连接池管理器|https://github.com/postgresml/pgcat|
+|01:06|Hono｜面向边缘场景设计的Web框架|https://hono.dev/|
+|01:40|Risor｜用于Go项目的的嵌入式脚本语言|https://risor.io/|
+|02:10|Croner｜基于JavaScript编写的定时编排工具|https://github.com/Hexagon/croner  |
+|02:38|一周AI小结|一周 AI 小结：|
+|Bgm｜Denali|atDawnbySPEARFISHER及InhalationbyZivMoran|https://stability.ai/blog/stable-diffusion-sdxl-1-announcement 及 https://stability.ai/blog/stable-beluga-large-instruction-fine-tuned-models|
+
+
+## 第83期 
+
+### [Hacker News 周报] 浏览器中运行 WordPress；Postgres 数据引擎优化；Meta 发布 Llama2 
+
+- [视频链接](https://www.bilibili.com/video/av956331314) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|TUIGrid｜一个功能强大的数据表格库|https://ui.toast.com/tui-grid|
+|00:35|Eruda｜浏览器调试工具模拟器|https://github.com/liriliri/eruda|
+|00:56|Docuseal｜电子签名DocuSign的开源替代品|https://github.com/docusealco/docuseal|
+|01:23|Wordpress发布WordpressPlayground|https://wordpress.github.io/wordpress-playground/|
+|01:54|OrioleDB｜新的PostgreSQL存储引擎|https://www.orioledata.com/blog/no-more-vacuum-in-postgresql/ |
+|02:26|一周AI小结|一周 AI 小结：|
+|Bgm｜For|OldTimesbyJamieRutherford|https://ai.meta.com/llama/   |
+
+
 ## 第82期 
 
 ### [Hacker News 周报] ChatGPT 最强竞争对手；K8s 成本测量工具；开源健身小程序 
