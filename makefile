@@ -45,3 +45,10 @@ kuwaitInvestment:
 	git add .
 	git commit -m 'chore: sync kuwait investment list'
 	git push origin master
+
+abuDhabiInvestment:
+	git pull origin master
+	node scripts/abuDhabiInvestment.js
+	git add .
+	git commit -m 'chore: sync abu dhabi investment list'
+	git push origin master
