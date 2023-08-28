@@ -1,5 +1,53 @@
 # koala hacker news 
 
+## 第87期 
+
+### [Hacker News 周报] 协同 Lottie 动画创作工具；轻量级 systemd 服务管理工具；使用 PS 一样使用 Diffusion AI 
+
+- [视频链接](https://www.bilibili.com/video/av574943888) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|LottieLab｜协同Lottie动画创作工具|https://www.lottielab.com/|
+|00:32|servicer｜轻量级systemd服务管理工具|https://servicer.dev/|
+|01:05|gRPCurl｜和gRPC服务器进行交互的CLI工具|https://github.com/fullstorydev/grpcurl|
+|01:34|Opendream｜像使用Photoshop一样使用DiffusionAI|https://github.com/varunshenoy/opendream|
+|02:00|Retake｜PostgreSQL向量数据库解决方案|https://www.getretake.com/|
+|02:33|Logto｜Auth0的开源替代品|https://github.com/logto-io/logto|
+
+
+## 第86期 
+
+### [Hacker News 周报] 开源 RDS 替代方案；Mac 应用管理工具；Deno 中调用 Python 模块 
+
+- [视频链接](https://www.bilibili.com/video/av957239753) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:10|deno_python｜Deno中调用Python模块|https://github.com/denosaurs/deno_python|
+|00:58|PostgresLanguageServer｜为Postgres数据库提供语言服务协议支持|https://github.com/supabase/postgres_lsp|
+|01:28|Pigsty｜开源RDS替代方案|https://github.com/Vonng/pigsty|
+|02:10|Applite｜Mac应用管理工具|https://github.com/milanvarady/applite|
+|02:48|Dioxus｜Rust编写的跨平台GUI框架|https://github.com/DioxusLabs/dioxus|
+|03:23|katana｜Go编写的内容抓取框架|https://github.com/projectdiscovery/katana|
+
+
+## 第85期 
+
+### [Hacker News 周报] Bloomberg 开源高性能消息队列；Go 语言新工具；Meta 开源 AI 音乐生成模型 
+
+- [视频链接](https://www.bilibili.com/video/av999399370) 
+
+|时间轴|简介|链接|
+|:--:|:--:|:--:|
+|00:09|Bloomberg开源高性能消息队列BlazingMQ| |
+|00:37|开源列式数据库Hydra发布1.0版本| |
+|01:22|PythonMonkey｜实现Python与JavaScript的互操作性| |
+|01:44|gonew｜Go语言新工具| |
+|02:13|一篇介绍内存泄漏的文章？| |
+|02:54|一周AI小结| |
+
+
 ## 第84期 
 
 ### [Hacker News 周报] 面向边缘场景设计的 Web 框架；功能更强的 PostgresSQL 池化工具；GitHub Copilot 开源竞品 
