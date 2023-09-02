@@ -1,5 +1,69 @@
 [
   {
+    "id": "59ed375316ae3cdab46ef367a2a960d6",
+    "dateStr": "2023年9月1日WTI",
+    "date": 1693497600000,
+    "message": "9月1日WTI原油为83.63",
+    "name": "原油",
+    "price": 83.63
+  },
+  {
+    "id": "6a4500573b17e47c06860e79640e98b2",
+    "dateStr": "2023年9月1日Brent",
+    "date": 1693497600000,
+    "message": "9月1日Brent原油为86.83",
+    "name": "原油",
+    "price": 86.83
+  },
+  {
+    "id": "f5630ffef71605e9cfd3f4347fc16091",
+    "dateStr": "2023年8月31日WTI",
+    "date": 1693411200000,
+    "message": "8月31日WTI原油为81.63",
+    "name": "原油",
+    "price": 81.63
+  },
+  {
+    "id": "f1196b5ce4b9e9b5be6ecc4b20f00872",
+    "dateStr": "2023年8月31日Brent",
+    "date": 1693411200000,
+    "message": "8月31日Brent原油为85.24",
+    "name": "原油",
+    "price": 85.24
+  },
+  {
+    "id": "7f586c941e744d54bb514d6e111a081c",
+    "dateStr": "2023年8月30日WTI",
+    "date": 1693324800000,
+    "message": "8月30日WTI原油为81.16",
+    "name": "原油",
+    "price": 81.16
+  },
+  {
+    "id": "817ade8dd95241c45198ec6b992bc231",
+    "dateStr": "2023年8月30日Brent",
+    "date": 1693324800000,
+    "message": "8月30日Brent原油为84.91",
+    "name": "原油",
+    "price": 84.91
+  },
+  {
+    "id": "0af909cc82a09fffefee9056cc32f48d",
+    "dateStr": "2023年8月29日Brent",
+    "date": 1693238400000,
+    "message": "8月29日Brent原油为83.87",
+    "name": "原油",
+    "price": 83.87
+  },
+  {
+    "id": "5e2f31afef738ec327a766b8cc9b2a0b",
+    "dateStr": "2023年8月29日WTI",
+    "date": 1693238400000,
+    "message": "8月29日WTI原油为80.10",
+    "name": "原油",
+    "price": 80.1
+  },
+  {
     "id": "9c6a4134cea5472e478c064e6ad8e4ca",
     "dateStr": "2023年8月28日WTI",
     "date": 1693152000000,
