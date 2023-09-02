@@ -56,6 +56,9 @@ const getList = async ({
     filter: `(SECURITY_CODE="${code}")(PARTICIPANT_CODE="B01274")(HOLD_DATE>='2023-06-02')`
   })
   logger.info('morganStanley', code, page, JSON.stringify(ret))
+  if (!ret.success) {
+    throw new Error('数据获取异常')
+  }
   if (ret.code === 0) {
     callback(ret)
   }
