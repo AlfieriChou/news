@@ -114,7 +114,7 @@ const start = async (
   logger.info('write file done')
 }
 
-['002555', '002236'].reduce(async (promise, code) => {
+['002555', '002236', '000429'].reduce(async (promise, code) => {
   await promise
   await start(code)
   await sleep(Math.floor(Math.random() * (20000 - 10000) + 10000))
