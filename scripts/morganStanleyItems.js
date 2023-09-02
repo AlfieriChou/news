@@ -86,7 +86,8 @@ const start = async (
     .map(i => {
       return {
         ...i,
-        date: new Date(i.holdDate)
+        date: new Date(i.holdDate),
+        dateStr: format(new Date(i.holdDate), 'yyyy-MM-dd')
       }
     })
     .sort((a, b) => a.date - b.date)
