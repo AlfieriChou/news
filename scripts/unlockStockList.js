@@ -46,7 +46,7 @@ const getList = async ({
 }
 
 const start = async () => {
-  const date = new Date('2023-11-01')
+  const date = new Date('2023-10-01')
   const year = date.getFullYear()
   const nextMonth = date.getMonth() + 1
   const startDate = format(new Date(year, nextMonth, 0).getTime() + ONE_DAY, 'yyyy-MM-dd')
